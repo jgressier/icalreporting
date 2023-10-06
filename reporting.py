@@ -13,20 +13,43 @@ note..:
     - ical (handle recurring events)
 """
 import re
-from icsts import read_ics
+from datetime import datetime
+from ical.calendar_stream import IcsCalendarStream
 import pandas as pd
 from pathlib import Path
 import openpyxl as xl
 from openpyxl.utils.dataframe import dataframe_to_rows
 
 
-def ical_to_dframe(filename):
-    return read_ics(str(filename))
+def ical_to_dframe(filename: Path, startdate: datetime, enddate: datetime):
+    with filename.open() as ics_file:
+        calendar = IcsCalendarStream.calendar_from_ics(ics_file.read())
+    return pd.DataFrame(
+        [
+            {
+                "date": event.dtstart.isoformat(),
+                "year": event.dtstart.year,
+                "month": event.dtstart.month,
+                #"week": event.start.week,
+                #"weekday": event.start.weekday(),
+                "h_begin": event.dtstart.time,
+                "duration": (event.dtend-event.dtstart).seconds / 3600.0,
+                "name": event.summary,
+                #"location": event.location,
+                "description": event.description,
+                #"all_day": event.all_day,
+                "begin": event.dtstart,
+            }
+            for event in calendar.timeline.included(startdate, enddate)
+        ]
+    )
 
 class Project():
-    def __init__(self, name: str, folder = None):
+    def __init__(self, name: str, folder = None, start: str = "2020-01-01", end: str = "2030-01-01"):
         self._name = name
         self._folder = name if folder is None else folder
+        self._start = datetime.fromisoformat(start)
+        self._end = datetime.fromisoformat(end)
         print(f"> init project {self._name} in folder {self._folder}")
 
     def load_ics(self):
@@ -35,7 +58,7 @@ class Project():
         #print(list(Path(self._folder).glob("*.ics")))
         for filename in list(Path(self._folder).glob("*.ics")):
             print(f"- reading {filename}")
-            framedict[filename.stem] = ical_to_dframe(filename)
+            framedict[filename.stem] = ical_to_dframe(filename, self._start, self._end)
             framedict[filename.stem]["Member"] = filename.stem # file name without path nor extension
         self._dframe = pd.concat(tuple(framedict.values()))
         self._set_wp(default="NOWP")
@@ -101,7 +124,7 @@ class Project():
         for member in self.members():
             print(f"- create member worksheet {member}")
             self.add_tabdetail_member(wb, member)
-        for wp in self.work_packages():
+        for wp in sorted(self.work_packages()):
             if wp is not None:
                 print(f"- create WP worksheet {wp}")
                 self.add_tab_workpackage(wb, wp)
@@ -110,8 +133,8 @@ class Project():
 
 
 if __name__ == "__main__":
-    prj = Project(name="mambo", folder="projetA")
+    prj = Project(name="mambo", folder="projetA", start="2023-01-01", end="2024-01-01")
     prj.load_ics() # lecture des .ics
-    prj.filter(start="2023-01-01", end="2023-12-31") # filtre des dates
+    #prj.filter(start="2023-01-01", end="2023-12-31") # filtre des dates
     wb = prj.workbook() # création du tableur
     wb.save("projetA.xlsx") # sauvegarde du fichier
