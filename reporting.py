@@ -1,3 +1,17 @@
+"""reporting module
+
+This module uses an ical loader package to fill a pandas database which is parsed to generate a workbook and worksheets
+
+The difficulty may be to handle recurrent events.
+
+note..:
+    existing ical loading packages
+    - ixsts (local, non pip) from N. Garcia-Rosa
+    - icalendar
+    - icalevents (fork of icalendar)
+    - ics-py
+    - ical (handle recurring events)
+"""
 import re
 from icsts import read_ics
 import pandas as pd
@@ -5,8 +19,9 @@ from pathlib import Path
 import openpyxl as xl
 from openpyxl.utils.dataframe import dataframe_to_rows
 
-timesheet = pd.DataFrame()
 
+def ical_to_dframe(filename):
+    return read_ics(str(filename))
 
 class Project():
     def __init__(self, name: str, folder = None):
@@ -20,7 +35,7 @@ class Project():
         #print(list(Path(self._folder).glob("*.ics")))
         for filename in list(Path(self._folder).glob("*.ics")):
             print(f"- reading {filename}")
-            framedict[filename.stem] = read_ics(str(filename))
+            framedict[filename.stem] = ical_to_dframe(filename)
             framedict[filename.stem]["Member"] = filename.stem # file name without path nor extension
         self._dframe = pd.concat(tuple(framedict.values()))
         self._set_wp(default="NOWP")
