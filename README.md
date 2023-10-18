@@ -13,13 +13,29 @@ icalreporting
 
 ### Features
 
+- able to load ical files and fill a pandas database
+- parse the pandas database to identify project and creates a worksheet tables
+- export to open document XLSX file
 
-### Installation and usage
+### Installation
 
 ```bash
 pip install --upgrade icalreporting
 ```
+This automatic installation will get needed dependencies. 
 
 ### Requirements
 
 see [requirements.txt](https://github.com/jgressier/icalreporting/blob/master/requirements.txt)
+
+### Usage
+
+When installed, you just need to put a set a ical files in a folder for a project. You will be able to create a reporting file with the following lines.
+
+```python
+from icalreporting import Project
+prj = Project(folder="examples/projectA", start="2023-01-01", end="2024-01-01")
+prj.load_ics()  # read files
+wb = prj.workbook()  # create workbook
+wb.save("projectA.xlsx")  # save it to file
+```
