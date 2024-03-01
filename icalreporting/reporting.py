@@ -67,7 +67,7 @@ class Project():
         self._default_WP = default_WP
         print(self._end)
         print(f"> init project {self._name} in folder {self._folder}")
-        print(f"    will include {self._start.date()} to {self._end.date()}")
+        print(f"    will include {self._start.date()} to {self._end.date()} (not included)")
 
     def load_ics(self):
         framedict = {}
