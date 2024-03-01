@@ -20,8 +20,21 @@ from pathlib import Path
 import openpyxl as xl
 from openpyxl.utils.dataframe import dataframe_to_rows
 
+_default_startdate = "2020-01-01"
+_default_enddate = "2030-01-01"
 
 def ical_to_dframe(filename: Path, startdate: datetime, enddate: datetime):
+    """read a file in ICAL format and create events between 2 dates
+    can handle recurrent events
+
+    Args:
+        filename (Path): path name of ICAL file
+        startdate (datetime): starting date for events
+        enddate (datetime): ending date (included) for events
+
+    Returns:
+        DataFrame: as member of the class (date, year, month, h_begin, duration, name, description, begin) properties
+    """
     with filename.open() as ics_file:
         calendar = IcsCalendarStream.calendar_from_ics(ics_file.read())
     return pd.DataFrame(
@@ -41,9 +54,11 @@ def ical_to_dframe(filename: Path, startdate: datetime, enddate: datetime):
     )
 
 
-class Project:
+class Project():
+    """Class Project, can read ICAL file, define tags and create worksheet 
+    """
     def __init__(
-        self, name: str, folder=None, start: str = "2020-01-01", end: str = "2030-01-01", default_WP="No_WP"
+        self, name: str, folder=None, start: str = _default_startdate, end: str = _default_enddate, default_WP="No_WP"
     ):
         self._name = name
         self._folder = name if folder is None else folder
@@ -56,12 +71,13 @@ class Project:
 
     def load_ics(self):
         framedict = {}
-        # print(Path(self._folder), Path(self._folder).exists(), Path(self._folder).is_dir())
-        # print(list(Path(self._folder).glob("*.ics")))
-        for filename in list(Path(self._folder).glob("*.ics")):
+        filelist = list(Path(self._folder).glob("*.ics"))
+        for filename in filelist:
             print(f"- reading {filename}")
             framedict[filename.stem] = ical_to_dframe(filename, self._start, self._end)
             framedict[filename.stem]["Member"] = filename.stem  # file name without path nor extension
+        if len(filelist) == 0:
+            raise FileNotFoundError("no *.ics file found")
         self._dframe = pd.concat(tuple(framedict.values()))
         self._set_wp(default=self._default_WP)
         self._clean_wp()
@@ -95,6 +111,7 @@ class Project:
         return
 
     def filter(self, start: str, end: str):
+        """replace DataFrame with selected dates"""
         self._dframe = self._df_slot(start, end)
 
     def add_tabdetail_member(self, wb, member: str):
@@ -140,7 +157,7 @@ class Project:
 
 
 if __name__ == "__main__":
-    prj = Project(name="mambo", folder="examples/projetA", start="2023-01-01", end="2024-01-01")
+    prj = Project(name="mambo", folder="examples/projectA", start="2023-01-01", end="2024-01-01")
     prj.load_ics()  # lecture des .ics
     # prj.filter(start="2023-01-01", end="2023-12-31") # filtre des dates
     wb = prj.workbook()  # création du tableur

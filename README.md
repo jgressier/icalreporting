@@ -33,7 +33,7 @@ see [requirements.txt](https://github.com/jgressier/icalreporting/blob/master/re
 When installed, you just need to put a set a ical files in a folder for a project. You will be able to create a reporting file with the following lines.
 
 ```python
-from icalreporting import Project
+from icalreporting.reporting import Project
 prj = Project(folder="examples/projectA", start="2023-01-01", end="2024-01-01")
 prj.load_ics()  # read files
 wb = prj.workbook()  # create workbook
