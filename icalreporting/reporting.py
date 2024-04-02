@@ -83,9 +83,11 @@ class Project():
         self._clean_wp()
 
     def members(self):
+        """returns set (unordered list) of members"""
         return set(self._dframe["Member"])
 
     def work_packages(self):
+        """returns set (unordered list) of Work Packages"""
         return set(self._dframe["WP"])
 
     def _df_to_tab(self, wb: xl.Workbook, df, title=None):
