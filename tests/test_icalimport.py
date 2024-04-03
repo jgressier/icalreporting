@@ -1,10 +1,9 @@
 import icalreporting.reporting as ir
 from datetime import datetime, timedelta
-import sys, os, pathlib
 
 def test_init():
     prjname = "my_original_name"
-    path = "examples/ProjectA"
+    path = "examples/projectA"
     project = ir.Project(name=prjname, folder=path)
     assert project._name == prjname
     assert project._folder == path
@@ -15,26 +14,21 @@ def test_init():
 
 def test_open():
     prjname = "my_original_name"
-    path = "examples/ProjectA"
+    path = "examples/projectA"
     project = ir.Project(name=prjname, folder=path)
-    print(pathlib.Path(project._folder))
-    print(pathlib.Path(project._folder).parent)
-    print(list(pathlib.Path(project._folder).glob("*")))
-    print(list(pathlib.Path(project._folder).parent.glob("*")))
-    print(list(pathlib.Path(project._folder).parent.glob("*/*")))
     project.load_ics()
     assert len(project.members()) == 2
     assert len(project.work_packages()) == 6
 
 def test_properties():
     prjname = "my_original_name"
-    path = "examples/ProjectA"
+    path = "examples/projectA"
     project = ir.Project(name=prjname, folder=path)
     project.load_ics()
 
 def test_write_workbook():
     prjname = "my_original_name"
-    path = "examples/ProjectA"
+    path = "examples/projectA"
     project = ir.Project(name=prjname, folder=path)
     project.load_ics()
     wb = project.workbook()
