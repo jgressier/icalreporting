@@ -14,7 +14,6 @@ def test_init():
     assert (project._end-timedelta(days=1)).date().isoformat() == ir._default_enddate
 
 def test_open():
-    print(sys.argv, os.getcwd())
     prjname = "my_original_name"
     path = "examples/ProjectA"
     project = ir.Project(name=prjname, folder=path)
