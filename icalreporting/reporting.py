@@ -57,6 +57,9 @@ def ical_to_dframe(filename: Path, startdate: datetime, enddate: datetime):
 class Project():
     """Class Project, can read ICAL file, define tags and create worksheet 
     """
+
+    _WP_model = r"WP[0-9]*[A-Z]*"
+
     def __init__(
         self, name: str, folder=None, start: str = _default_startdate, end: str = _default_enddate, default_WP="No_WP"
     ):
@@ -70,6 +73,7 @@ class Project():
         print(f"    will include {self._start.date()} to {self._end.date()} (not included)")
 
     def load_ics(self):
+        """load ICS fils and create pandas dataframe associated to member"""
         framedict = {}
         filelist = list(Path(self._folder).glob("*.ics"))
         for filename in filelist:
@@ -103,12 +107,13 @@ class Project():
         return slot
 
     def _set_wp(self, default=None):
-        rewp = re.compile(r"WP[0-9]*[A-Z]*")
+        """set WP properties using regexp in event name"""
+        rewp = re.compile(self._WP_model)
         self._dframe["WP"] = self._dframe["name"].apply(lambda s: rewp.findall(s))
         self._dframe["WP"] = self._dframe["WP"].apply(lambda wplist: wplist[0] if wplist else default)
 
     def _clean_wp(self):
-        rewp = re.compile(r"WP. *-* *")
+        rewp = re.compile(self._WP_model + r". *-* *")
         self._dframe["name"] = self._dframe["name"].apply(lambda s: rewp.sub("", s))
         return
 
@@ -128,7 +133,8 @@ class Project():
         dfwp = self._dframe[self._dframe["WP"] == wp].loc[
             :, ["date", "Member", "duration", "WP", "name", "year", "month"]
         ]
-        dfwp["YearMonth"] = dfwp.year.map(str) + "-" + dfwp.month.map(str)
+        monthformat = lambda m : f"{m:02}"
+        dfwp["YearMonth"] = dfwp.year.map(str) + "-" + dfwp.month.map(monthformat)
         dfpiv = dfwp.pivot_table(
             values="duration", index="Member", columns="YearMonth", aggfunc="sum"
         ).fillna(0)
