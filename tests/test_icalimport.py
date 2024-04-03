@@ -1,7 +1,9 @@
 import icalreporting.reporting as ir
 from datetime import datetime, timedelta
+import sys
 
 def test_init():
+    print(sys.argv)
     prjname = "my_original_name"
     path = "examples/ProjectA"
     project = ir.Project(name=prjname, folder=path)
