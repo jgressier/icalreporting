@@ -18,7 +18,7 @@ def test_open():
     prjname = "my_original_name"
     path = "examples/ProjectA"
     project = ir.Project(name=prjname, folder=path)
-    print(pathlib.Path(project._folder).glob("*"))
+    print(list(pathlib.Path(project._folder).glob("*")))
     project.load_ics()
     assert len(project.members()) == 2
     assert len(project.work_packages()) == 6
