@@ -37,8 +37,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        # --mpl-generate-path=baseline # to generate images
-        pytest --mpl --cov-report=xml
+        pytest --cov-report=xml
     - name: codecov
       run: |
         codecov
