@@ -1,0 +1,1302 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Apple Inc.//macOS 14.4.1//EN
+VERSION:2.0
+X-APPLE-CALENDAR-COLOR:#FF2968
+X-WR-CALDESC:Emploi du temps de 0620000007089 Kreys Jérémie généré pa
+ r le logiciel HP (©INDEX ÉDUCATION) le 29 août 2024 - ISAE TOULOUSE - va
+ lable sur la période du 07 août 2023 au 04 août 2024 - Semaines : semain
+ e 32 - 31
+X-WR-CALNAME:HYP JG 23-24
+BEGIN:VEVENT
+CREATED:20240829T022750Z
+DESCRIPTION:Matière : F-DF302-SIMU - Simulation numérique et turbu#\nPro
+ motion : MS Systèmes de Propulsion Aerospatiale\nTD : DF - aérodynamique
+ \, DF - turbomachines &combustion\nSalles : 61 003 J4 INFO - 30\, 61 004
+  J3 INFO - 30\, 61 013 INFO - 30\nIntervenants : ARNOULD\, Kreys\, GR
+ ONDIN\, WING\nType : BE\n
+DTEND:20230927T151500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230927T141500Z
+LAST-MODIFIED:20240829T022751Z
+LOCATION:61 003 J4 INFO - 30\, 61 004 J3 INFO - 30\, 61 013 INFO - 30
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF302-SIMU - Simulation numérique et turbu# - MS Systèmes de P
+ ropulsion Aerospatiale - DF - aérodynamique\, DF - turbomachines &combus
+ tion - ARNOULD\, Rondin\, WING - BE
+TRANSP:OPAQUE
+UID:Cours-477658-8-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF302-SIMU - Simulation numériq
+ ue et turbu#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>
+ TD : DF - aérodynamique\, DF - turbomachines &combustion<br/>Salles : 61
+  003 J4 INFO - 30\, 61 004 J3 INFO - 30\, 61 013 INFO - 30<br/>Intervena
+ nts : ARNOULD\, Kreys\, Rondin\, WING<br/>Type : BE<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230904T205126Z
+DESCRIPTION:Matière : F-DF301 - Dynamique des fluides avancée#\nMémo : c
+ ours chocs et caractéristiques\nPromotion : MS Systèmes de Propulsion Ae
+ rospatiale\nTD : DF - aérodynamique\, DF - turbomachines &combustion\nSa
+ lle : Amphi 3 - 192+1pmr\nIntervenant : Kreys\nType : Cours\n
+DTEND:20230911T091500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230911T081500Z
+LAST-MODIFIED:20230904T205127Z
+LOCATION:Amphi 3 - 192+1pmr
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF301 - Dynamique des fluides avancée# - cours chocs et caract
+ éristiques - MS Systèmes de Propulsion Aerospatiale - DF - aérodynamique
+ \, DF - turbomachines &combustion - Cours
+TRANSP:OPAQUE
+UID:Cours-477581-6-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF301 - Dynamique des fluides a
+ vancée#<br/>Mémo : cours chocs et caractéristiques<br/>Promotion : MS Sy
+ stèmes de Propulsion Aerospatiale<br/>TD : DF - aérodynamique\, DF - tur
+ bomachines &combustion<br/>Salle : Amphi 3 - 192+1pmr<br/>Intervenant : 
+ Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240829T022750Z
+DESCRIPTION:Matière : F-DF302-SIMU - Simulation numérique et turbu#\nPro
+ motion : MS Systèmes de Propulsion Aerospatiale\nTD : DF - aérodynamique
+ \, DF - turbomachines &combustion\nSalles : 61 003 J4 INFO - 30\, 61 004
+  J3 INFO - 30\, 61 013 INFO - 30\nIntervenants : ARNOULD\, Kreys\, GR
+ ONDIN\, WING\nType : BE\n
+DTEND:20230927T124500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230927T114500Z
+LAST-MODIFIED:20240829T022751Z
+LOCATION:61 003 J4 INFO - 30\, 61 004 J3 INFO - 30\, 61 013 INFO - 30
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF302-SIMU - Simulation numérique et turbu# - MS Systèmes de P
+ ropulsion Aerospatiale - DF - aérodynamique\, DF - turbomachines &combus
+ tion - ARNOULD\, Rondin\, WING - BE
+TRANSP:OPAQUE
+UID:Cours-477660-8-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF302-SIMU - Simulation numériq
+ ue et turbu#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>
+ TD : DF - aérodynamique\, DF - turbomachines &combustion<br/>Salles : 61
+  003 J4 INFO - 30\, 61 004 J3 INFO - 30\, 61 013 INFO - 30<br/>Intervena
+ nts : ARNOULD\, Kreys\, Rondin\, WING<br/>Type : BE<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230904T205126Z
+DESCRIPTION:Matière : F-DF301 - Dynamique des fluides avancée#\nMémo : T
+ D rampes supersoniques et jets\nPromotion : MS Systèmes de Propulsion Ae
+ rospatiale\nTD : DF - aérodynamique\, DF - turbomachines &combustion\nSa
+ lles : 05 114 Cours 3A - 50\, 05 117 Cours 3A - 50\nIntervenants : BINDE
+ R\, Kreys\nType : PC\n
+DTEND:20230911T140000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230911T130000Z
+LAST-MODIFIED:20230904T205127Z
+LOCATION:05 114 Cours 3A - 50\, 05 117 Cours 3A - 50
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF301 - Dynamique des fluides avancée# - TD rampes supersoniqu
+ es et jets - MS Systèmes de Propulsion Aerospatiale - DF - aérodynamique
+ \, DF - turbomachines &combustion - Linker - PC
+TRANSP:OPAQUE
+UID:Cours-477576-6-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF301 - Dynamique des fluides a
+ vancée#<br/>Mémo : TD rampes supersoniques et jets<br/>Promotion : MS Sy
+ stèmes de Propulsion Aerospatiale<br/>TD : DF - aérodynamique\, DF - tur
+ bomachines &combustion<br/>Salles : 05 114 Cours 3A - 50\, 05 117 Cours 
+ 3A - 50<br/>Intervenants : Linker\, Kreys<br/>Type : PC<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240829T022750Z
+DESCRIPTION:Matière : F-DF302-SIMU - Simulation numérique et turbu#\nPro
+ motion : MS Systèmes de Propulsion Aerospatiale\nTD : DF - aérodynamique
+ \, DF - turbomachines &combustion\nSalles : 61 003 J4 INFO - 30\, 61 004
+  J3 INFO - 30\, 61 010 INFO - 30\nIntervenants : Fleur\, Kreys\, GRON
+ DIN\, MEZIAT\, Astro\, WING\nType : BE\n
+DTEND:20231003T120000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231003T110000Z
+LAST-MODIFIED:20240829T022751Z
+LOCATION:61 003 J4 INFO - 30\, 61 004 J3 INFO - 30\, 61 010 INFO - 30
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF302-SIMU - Simulation numérique et turbu# - MS Systèmes de P
+ ropulsion Aerospatiale - DF - aérodynamique\, DF - turbomachines &combus
+ tion - Fleur\, Rondin\, MEZIAT\, Astro\, WING - BE
+TRANSP:OPAQUE
+UID:Cours-477667-9-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF302-SIMU - Simulation numériq
+ ue et turbu#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>
+ TD : DF - aérodynamique\, DF - turbomachines &combustion<br/>Salles : 61
+  003 J4 INFO - 30\, 61 004 J3 INFO - 30\, 61 010 INFO - 30<br/>Intervena
+ nts : Fleur\, Kreys\, Rondin\, MEZIAT\, Astro\, WING<br/>Type : B
+ E<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240829T022750Z
+DESCRIPTION:Matière : F-DF302-SIMU - Simulation numérique et turbu#\nPro
+ motion : MS Systèmes de Propulsion Aerospatiale\nTD : DF - aérodynamique
+ \, DF - turbomachines &combustion\nSalle : Amphi 2 - 192+2pmr\nIntervena
+ nt : Kreys\nType : Cours\n
+DTEND:20231004T091500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231004T081500Z
+LAST-MODIFIED:20240829T022751Z
+LOCATION:Amphi 2 - 192+2pmr
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF302-SIMU - Simulation numérique et turbu# - MS Systèmes de P
+ ropulsion Aerospatiale - DF - aérodynamique\, DF - turbomachines &combus
+ tion - Cours
+TRANSP:OPAQUE
+UID:Cours-477677-9-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF302-SIMU - Simulation numériq
+ ue et turbu#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>
+ TD : DF - aérodynamique\, DF - turbomachines &combustion<br/>Salle : Amp
+ hi 2 - 192+2pmr<br/>Intervenant : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231005T030256Z
+DESCRIPTION:Matière : Réservation de salles\nMémo : Point CYCLIC-SA (S. 
+ Jamme)\nSalle : 38 215 Réunion DAEP DMSM\nIntervenant : Kreys\n
+DTEND:20231011T083000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231011T070000Z
+LAST-MODIFIED:20231005T030257Z
+LOCATION:38 215 Réunion DAEP DMSM
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Réservation de salles - Point CYCLIC-SA (S. Jamme)
+TRANSP:OPAQUE
+UID:Cours-497689-10-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : Réservation de salles<br/>Mémo : 
+ Point CYCLIC-SA (S. Jamme)<br/>Salle : 38 215 Réunion DAEP DMSM<br/>Inte
+ rvenant : Kreys<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240829T022750Z
+DESCRIPTION:Matière : F-DF302-SIMU - Simulation numérique et turbu#\nPro
+ motion : MS Systèmes de Propulsion Aerospatiale\nTD : DF - aérodynamique
+ \, DF - turbomachines &combustion\nSalle : Amphi 1 - 192\nIntervenant : 
+ Kreys\nType : Cours\n
+DTEND:20231003T094500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231003T084500Z
+LAST-MODIFIED:20240829T022751Z
+LOCATION:Amphi 1 - 192
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF302-SIMU - Simulation numérique et turbu# - MS Systèmes de P
+ ropulsion Aerospatiale - DF - aérodynamique\, DF - turbomachines &combus
+ tion - Cours
+TRANSP:OPAQUE
+UID:Cours-477663-9-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF302-SIMU - Simulation numériq
+ ue et turbu#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>
+ TD : DF - aérodynamique\, DF - turbomachines &combustion<br/>Salle : Amp
+ hi 1 - 192<br/>Intervenant : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230904T205126Z
+DESCRIPTION:Matière : F-DF301 - Dynamique des fluides avancée#\nMémo : T
+ D rampes supersoniques et jets\nPromotion : MS Systèmes de Propulsion Ae
+ rospatiale\nTD : DF - aérodynamique\, DF - turbomachines &combustion\nSa
+ lles : 05 114 Cours 3A - 50\, 05 117 Cours 3A - 50\nIntervenants : BINDE
+ R\, Kreys\nType : PC\n
+DTEND:20230911T151500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230911T141500Z
+LAST-MODIFIED:20230904T205127Z
+LOCATION:05 114 Cours 3A - 50\, 05 117 Cours 3A - 50
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF301 - Dynamique des fluides avancée# - TD rampes supersoniqu
+ es et jets - MS Systèmes de Propulsion Aerospatiale - DF - aérodynamique
+ \, DF - turbomachines &combustion - Linker - PC
+TRANSP:OPAQUE
+UID:Cours-477578-6-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF301 - Dynamique des fluides a
+ vancée#<br/>Mémo : TD rampes supersoniques et jets<br/>Promotion : MS Sy
+ stèmes de Propulsion Aerospatiale<br/>TD : DF - aérodynamique\, DF - tur
+ bomachines &combustion<br/>Salles : 05 114 Cours 3A - 50\, 05 117 Cours 
+ 3A - 50<br/>Intervenants : Linker\, Kreys<br/>Type : PC<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240220T114318Z
+DESCRIPTION:Matière : Réservation de salles\nMémo : TAIPEI\nSalle : 38 2
+ 15 Réunion DAEP DMSM\nIntervenants : PRETOJO\, Linker\, Kreys\, WINGE
+ L\n
+DTEND:20240220T110000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240220T093000Z
+LAST-MODIFIED:20240220T114319Z
+LOCATION:38 215 Réunion DAEP DMSM
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Réservation de salles - TAIPEI - PRETOJO\, Linker\, WING
+TRANSP:OPAQUE
+UID:Cours-510821-29-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : Réservation de salles<br/>Mémo : 
+ TAIPEI<br/>Salle : 38 215 Réunion DAEP DMSM<br/>Intervenants : PRETOJO\,
+  Linker\, Kreys\, WING<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240829T022750Z
+DESCRIPTION:Matière : F-DF302-SIMU - Simulation numérique et turbu#\nPro
+ motion : MS Systèmes de Propulsion Aerospatiale\nTD : DF - aérodynamique
+ \, DF - turbomachines &combustion\nSalles : 61 003 J4 INFO - 30\, 61 004
+  J3 INFO - 30\, 61 013 INFO - 30\nIntervenants : ARNOULD\, Kreys\, GR
+ ONDIN\, WING\nType : BE\n
+DTEND:20230927T140000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230927T130000Z
+LAST-MODIFIED:20240829T022751Z
+LOCATION:61 003 J4 INFO - 30\, 61 004 J3 INFO - 30\, 61 013 INFO - 30
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF302-SIMU - Simulation numérique et turbu# - MS Systèmes de P
+ ropulsion Aerospatiale - DF - aérodynamique\, DF - turbomachines &combus
+ tion - ARNOULD\, Rondin\, WING - BE
+TRANSP:OPAQUE
+UID:Cours-477659-8-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF302-SIMU - Simulation numériq
+ ue et turbu#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>
+ TD : DF - aérodynamique\, DF - turbomachines &combustion<br/>Salles : 61
+  003 J4 INFO - 30\, 61 004 J3 INFO - 30\, 61 013 INFO - 30<br/>Intervena
+ nts : ARNOULD\, Kreys\, Rondin\, WING<br/>Type : BE<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240829T022750Z
+DESCRIPTION:Matière : F-DF302-SIMU - Simulation numérique et turbu#\nPro
+ motion : MS Systèmes de Propulsion Aerospatiale\nTD : DF - aérodynamique
+ \, DF - turbomachines &combustion\nSalle : Amphi 2 - 192+2pmr\nIntervena
+ nt : Kreys\nType : Cours\n
+DTEND:20231004T103000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231004T093000Z
+LAST-MODIFIED:20240829T022751Z
+LOCATION:Amphi 2 - 192+2pmr
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF302-SIMU - Simulation numérique et turbu# - MS Systèmes de P
+ ropulsion Aerospatiale - DF - aérodynamique\, DF - turbomachines &combus
+ tion - Cours
+TRANSP:OPAQUE
+UID:Cours-477670-9-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF302-SIMU - Simulation numériq
+ ue et turbu#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>
+ TD : DF - aérodynamique\, DF - turbomachines &combustion<br/>Salle : Amp
+ hi 2 - 192+2pmr<br/>Intervenant : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240130T122804Z
+DESCRIPTION:Matière : Réservation de salles\nMémo : Entretien\nSalle : 3
+ 8 215 Réunion DAEP DMSM\nIntervenants : Flont\, Kreys\, Astro\n
+DTEND:20240131T163000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240131T153000Z
+LAST-MODIFIED:20240130T122805Z
+LOCATION:38 215 Réunion DAEP DMSM
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Réservation de salles - Entretien - Flont\, Astro
+TRANSP:OPAQUE
+UID:Cours-508953-26-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : Réservation de salles<br/>Mémo : 
+ Entretien<br/>Salle : 38 215 Réunion DAEP DMSM<br/>Intervenants : FONTAN
+ E\, Kreys\, Astro<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230729T154813Z
+DESCRIPTION:Matière : F-DF306 - Aérodynamique des turbomachin#\nPromotio
+ n : MS Systèmes de Propulsion Aerospatiale\nTD : DF - turbomachines &com
+ bustion\nSalle : 05 114 Cours 3A - 50\nIntervenant : Kreys\nType : Co
+ urs\n
+DTEND:20231115T161500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231115T151500Z
+LAST-MODIFIED:20230729T154814Z
+LOCATION:05 114 Cours 3A - 50
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF306 - Aérodynamique des turbomachin# - MS Systèmes de Propul
+ sion Aerospatiale - DF - turbomachines &combustion - Cours
+TRANSP:OPAQUE
+UID:Cours-479356-15-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF306 - Aérodynamique des turbo
+ machin#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>TD : 
+ DF - turbomachines &combustion<br/>Salle : 05 114 Cours 3A - 50<br/>Inte
+ rvenant : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240209T073210Z
+DESCRIPTION:Matière : Réservation de salles\nMémo : Reporting\nSalle : 3
+ 8 215 Réunion DAEP DMSM\nIntervenants : Papineau\, Kreys\, VO Kuan\
+ n
+DTEND:20240228T160000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240228T150000Z
+LAST-MODIFIED:20240209T073210Z
+LOCATION:38 215 Réunion DAEP DMSM
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Réservation de salles - Reporting - Papineau\, VO Kuan
+TRANSP:OPAQUE
+UID:Cours-509852-30-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : Réservation de salles<br/>Mémo : 
+ Reporting<br/>Salle : 38 215 Réunion DAEP DMSM<br/>Intervenants : CARBON
+ NEAU\, Kreys\, VO Kuan<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240524T122750Z
+DESCRIPTION:Matière : TCS1-MF - Mécanique et thermodynamique #\nPromotio
+ n : Formation d'ingénieur ISAE-SUPAERO (MSc) - 1\nSalle : Amphi 1 - 192\
+ nIntervenant : Kreys\nType : Cours\n
+DTEND:20240123T140000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240123T130000Z
+LAST-MODIFIED:20240524T122750Z
+LOCATION:Amphi 1 - 192
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:TCS1-MF - Mécanique et thermodynamique # - Formation d'ingénieur
+  ISAE-SUPAERO (MSc) - 1 - Cours
+TRANSP:OPAQUE
+UID:Cours-480244-25-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : TCS1-MF - Mécanique et thermodyna
+ mique #<br/>Promotion : Formation d'ingénieur ISAE-SUPAERO (MSc) - 1<br/
+ >Salle : Amphi 1 - 192<br/>Intervenant : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240513T122750Z
+DESCRIPTION:Matière : EAEP-103 - Acoustique et ondes de choc#\nTD : Acou
+ stiques et ondes de choc\nSalles : 38 137A Cours - 12 (24 si A et B)\, 3
+ 8 137B Cours - 12 (24 si A et B)\nIntervenant : Kreys\nType : Cours\n
+DTEND:20240522T153000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240522T120000Z
+LAST-MODIFIED:20240513T122750Z
+LOCATION:38 137A Cours - 12 (24 si A et B)\, 38 137B Cours - 12 (24 si A
+  et B)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:EAEP-103 - Acoustique et ondes de choc# - Acoustiques et ondes d
+ e choc - Cours
+TRANSP:OPAQUE
+UID:Cours-507324-42-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : EAEP-103 - Acoustique et ondes de
+  choc#<br/>TD : Acoustiques et ondes de choc<br/>Salles : 38 137A Cours 
+ - 12 (24 si A et B)\, 38 137B Cours - 12 (24 si A et B)<br/>Intervenant 
+ : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231009T105553Z
+DESCRIPTION:Matière : Réservation de salles\nMémo : D2F\nSalle : 38 215 
+ Réunion DAEP DMSM\nIntervenant : Kreys\n
+DTEND:20231011T100000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231011T083000Z
+LAST-MODIFIED:20231009T105554Z
+LOCATION:38 215 Réunion DAEP DMSM
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Réservation de salles - D2F
+TRANSP:OPAQUE
+UID:Cours-498276-10-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : Réservation de salles<br/>Mémo : 
+ D2F<br/>Salle : 38 215 Réunion DAEP DMSM<br/>Intervenant : Kreys<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240119T155116Z
+DESCRIPTION:Matière : Réservation de salles\nMémo : D2F\nSalle : 38 250 
+ Réunion Cazalbou\nIntervenant : Kreys\n
+DTEND:20240124T090000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240124T073000Z
+LAST-MODIFIED:20240119T155117Z
+LOCATION:38 250 Réunion Cazalbou
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Réservation de salles - D2F
+TRANSP:OPAQUE
+UID:Cours-507919-25-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : Réservation de salles<br/>Mémo : 
+ D2F<br/>Salle : 38 250 Réunion Cazalbou<br/>Intervenant : Kreys<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240215T020011Z
+DESCRIPTION:Matière : Réservation de salles\nMémo : Thomas Bergier\nSall
+ e : 38 215 Réunion DAEP DMSM\nIntervenants : Kreys\, JAMME\n
+DTEND:20240216T150000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240216T133000Z
+LAST-MODIFIED:20240215T020012Z
+LOCATION:38 215 Réunion DAEP DMSM
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Réservation de salles - Thomas Bergier - JAMME
+TRANSP:OPAQUE
+UID:Cours-510614-28-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : Réservation de salles<br/>Mémo : 
+ Thomas Bergier<br/>Salle : 38 215 Réunion DAEP DMSM<br/>Intervenants : G
+ RESSIER\, JAMME<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230904T205126Z
+DESCRIPTION:Matière : F-DF301 - Dynamique des fluides avancée#\nMémo : T
+ D tube à choc\nPromotion : MS Systèmes de Propulsion Aerospatiale\nTD : 
+ DF - aérodynamique\, DF - turbomachines &combustion\nSalles : 05 114 Cou
+ rs 3A - 50\, 05 117 Cours 3A - 50\nIntervenants : Kreys\, JAMME\nType
+  : PC\n
+DTEND:20230925T151500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230925T141500Z
+LAST-MODIFIED:20230904T205127Z
+LOCATION:05 114 Cours 3A - 50\, 05 117 Cours 3A - 50
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF301 - Dynamique des fluides avancée# - TD tube à choc - MS S
+ ystèmes de Propulsion Aerospatiale - DF - aérodynamique\, DF - turbomach
+ ines &combustion - JAMME - PC
+TRANSP:OPAQUE
+UID:Cours-477559-8-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF301 - Dynamique des fluides a
+ vancée#<br/>Mémo : TD tube à choc<br/>Promotion : MS Systèmes de Propuls
+ ion Aerospatiale<br/>TD : DF - aérodynamique\, DF - turbomachines &combu
+ stion<br/>Salles : 05 114 Cours 3A - 50\, 05 117 Cours 3A - 50<br/>Inter
+ venants : Kreys\, JAMME<br/>Type : PC<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240524T122750Z
+DESCRIPTION:Matière : 1MAE800 - Computational approach in flu#\nMémo : C
+ #5-6\nTD : 1MAE800\nSalle : 11 126 Cours DFM - 40\nIntervenant : GRESSIE
+ R\nType : Cours\n
+DTEND:20240528T134500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240528T113000Z
+LAST-MODIFIED:20240524T122750Z
+LOCATION:11 126 Cours DFM - 40
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:1MAE800 - Computational approach in flu# - C#5-6 - 1MAE800 - Cou
+ rs
+TRANSP:OPAQUE
+UID:Cours-513489-43-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : 1MAE800 - Computational approach 
+ in flu#<br/>Mémo : C#5-6<br/>TD : 1MAE800<br/>Salle : 11 126 Cours DFM -
+  40<br/>Intervenant : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230831T132852Z
+DESCRIPTION:Matière : TCS1-MF - Mécanique et thermodynamique #\nTD : GRO
+ UPE 6\nSalle : 61 003 J4 INFO - 30\nIntervenant : Kreys\nType : BE\n
+DTEND:20240119T091500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240119T070000Z
+LAST-MODIFIED:20230831T132853Z
+LOCATION:61 003 J4 INFO - 30
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:TCS1-MF - Mécanique et thermodynamique # - GROUPE 6 - BE
+TRANSP:OPAQUE
+UID:Cours-480207-24-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : TCS1-MF - Mécanique et thermodyna
+ mique #<br/>TD : GROUPE 6<br/>Salle : 61 003 J4 INFO - 30<br/>Intervenan
+ t : Kreys<br/>Type : BE<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230904T205126Z
+DESCRIPTION:Matière : F-DF301 - Dynamique des fluides avancée#\nMémo : c
+ ours chocs et caractéristiques\nPromotion : MS Systèmes de Propulsion Ae
+ rospatiale\nTD : DF - aérodynamique\, DF - turbomachines &combustion\nSa
+ lle : Amphi 3 - 192+1pmr\nIntervenant : Kreys\nType : Cours\n
+DTEND:20230911T103000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230911T093000Z
+LAST-MODIFIED:20230904T205127Z
+LOCATION:Amphi 3 - 192+1pmr
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF301 - Dynamique des fluides avancée# - cours chocs et caract
+ éristiques - MS Systèmes de Propulsion Aerospatiale - DF - aérodynamique
+ \, DF - turbomachines &combustion - Cours
+TRANSP:OPAQUE
+UID:Cours-477580-6-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF301 - Dynamique des fluides a
+ vancée#<br/>Mémo : cours chocs et caractéristiques<br/>Promotion : MS Sy
+ stèmes de Propulsion Aerospatiale<br/>TD : DF - aérodynamique\, DF - tur
+ bomachines &combustion<br/>Salle : Amphi 3 - 192+1pmr<br/>Intervenant : 
+ Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230904T205126Z
+DESCRIPTION:Matière : F-DF301 - Dynamique des fluides avancée#\nMémo : c
+ ours intro modèles et compressible / harmonisation\nPromotion : MS Systè
+ mes de Propulsion Aerospatiale\nTD : DF - aérodynamique\, DF - turbomach
+ ines &combustion\nSalle : Amphi 2 - 192+2pmr\nIntervenant : Kreys\nTy
+ pe : Cours\n
+DTEND:20230906T091500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230906T081500Z
+LAST-MODIFIED:20230904T205127Z
+LOCATION:Amphi 2 - 192+2pmr
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF301 - Dynamique des fluides avancée# - cours intro modèles e
+ t compressible / harmonisation - MS Systèmes de Propulsion Aerospatiale 
+ - DF - aérodynamique\, DF - turbomachines &combustion - Cours
+TRANSP:OPAQUE
+UID:Cours-477307-5-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF301 - Dynamique des fluides a
+ vancée#<br/>Mémo : cours intro modèles et compressible / harmonisation<b
+ r/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>TD : DF - aéro
+ dynamique\, DF - turbomachines &combustion<br/>Salle : Amphi 2 - 192+2pm
+ r<br/>Intervenant : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240328T070150Z
+DESCRIPTION:Matière : F-DF301 - Dynamique des fluides avancée#\nMémo : R
+ attrapage DF301\nSalle : 38 215 Réunion DAEP DMSM\nIntervenants : Fleur\
+ , Kreys\nType : Oral\n
+DTEND:20240328T150000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240328T133000Z
+LAST-MODIFIED:20240328T070151Z
+LOCATION:38 215 Réunion DAEP DMSM
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF301 - Dynamique des fluides avancée# - Rattrapage DF301 - FI
+ ORE - Oral
+TRANSP:OPAQUE
+UID:Cours-513420-34-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF301 - Dynamique des fluides a
+ vancée#<br/>Mémo : Rattrapage DF301<br/>Salle : 38 215 Réunion DAEP DMSM
+ <br/>Intervenants : Fleur\, Kreys<br/>Type : Oral<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240524T122750Z
+DESCRIPTION:Matière : TCS1-MA-ANA - Analyses#\nPromotion : Formation d'i
+ ngénieur ISAE-SUPAERO (MSc) - 1\nSalles : 05 151 Cours 1A - 41\, Amphi 1
+  - 192\nIntervenant : Kreys\nType : Cours\n
+DTEND:20231120T103000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231120T093000Z
+LAST-MODIFIED:20240524T122750Z
+LOCATION:05 151 Cours 1A - 41\, Amphi 1 - 192
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:TCS1-MA-ANA - Analyses# - Formation d'ingénieur ISAE-SUPAERO (MS
+ c) - 1 - Cours
+TRANSP:OPAQUE
+UID:Cours-481996-16-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : TCS1-MA-ANA - Analyses#<br/>Promo
+ tion : Formation d'ingénieur ISAE-SUPAERO (MSc) - 1<br/>Salles : 05 151 
+ Cours 1A - 41\, Amphi 1 - 192<br/>Intervenant : Kreys<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240411T122750Z
+DESCRIPTION:Matière : EAEP-103 - Acoustique et ondes de choc#\nTD : Acou
+ stiques et ondes de choc\nSalles : 38 137A Cours - 12 (24 si A et B)\, 3
+ 8 137B Cours - 12 (24 si A et B)\nIntervenant : Kreys\nType : C*\n
+DTEND:20240524T081500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240524T060000Z
+LAST-MODIFIED:20240411T122751Z
+LOCATION:38 137A Cours - 12 (24 si A et B)\, 38 137B Cours - 12 (24 si A
+  et B)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:EAEP-103 - Acoustique et ondes de choc# - Acoustiques et ondes d
+ e choc - C*
+TRANSP:OPAQUE
+UID:Cours-507328-42-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : EAEP-103 - Acoustique et ondes de
+  choc#<br/>TD : Acoustiques et ondes de choc<br/>Salles : 38 137A Cours 
+ - 12 (24 si A et B)\, 38 137B Cours - 12 (24 si A et B)<br/>Intervenant 
+ : Kreys<br/>Type : C*<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230904T205126Z
+DESCRIPTION:Matière : F-DF301 - Dynamique des fluides avancée#\nMémo : c
+ ours instationnaire 1D compressible\nPromotion : MS Systèmes de Propulsi
+ on Aerospatiale\nTD : DF - aérodynamique\, DF - turbomachines &combustio
+ n\nSalle : Amphi 3 - 192+1pmr\nIntervenant : Kreys\nType : Cours\n
+DTEND:20230920T103000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230920T093000Z
+LAST-MODIFIED:20230904T205127Z
+LOCATION:Amphi 3 - 192+1pmr
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF301 - Dynamique des fluides avancée# - cours instationnaire 
+ 1D compressible - MS Systèmes de Propulsion Aerospatiale - DF - aérodyna
+ mique\, DF - turbomachines &combustion - Cours
+TRANSP:OPAQUE
+UID:Cours-477616-7-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF301 - Dynamique des fluides a
+ vancée#<br/>Mémo : cours instationnaire 1D compressible<br/>Promotion : 
+ MS Systèmes de Propulsion Aerospatiale<br/>TD : DF - aérodynamique\, DF 
+ - turbomachines &combustion<br/>Salle : Amphi 3 - 192+1pmr<br/>Intervena
+ nt : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240411T122750Z
+DESCRIPTION:Matière : EAEP-103 - Acoustique et ondes de choc#\nTD : Acou
+ stiques et ondes de choc\nSalles : 38 051A Cours DMSM DA - 12 (24 si A e
+ t B)\, 38 051B Cours DMSM DA - 12 (24 si A et B)\nIntervenant : Kreys
+ \nType : C*\n
+DTEND:20240517T104500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240517T083000Z
+LAST-MODIFIED:20240411T122751Z
+LOCATION:38 051A Cours DMSM DA - 12 (24 si A et B)\, 38 051B Cours DMSM 
+ DA - 12 (24 si A et B)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:EAEP-103 - Acoustique et ondes de choc# - Acoustiques et ondes d
+ e choc - C*
+TRANSP:OPAQUE
+UID:Cours-507323-41-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : EAEP-103 - Acoustique et ondes de
+  choc#<br/>TD : Acoustiques et ondes de choc<br/>Salles : 38 051A Cours 
+ DMSM DA - 12 (24 si A et B)\, 38 051B Cours DMSM DA - 12 (24 si A et B)<
+ br/>Intervenant : Kreys<br/>Type : C*<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240328T070150Z
+DESCRIPTION:Matière : F-DF301 - Dynamique des fluides avancée#\nMémo : R
+ attrapage DF301\nSalle : 38 215 Réunion DAEP DMSM\nIntervenants : Fleur\
+ , Kreys\nType : Oral\n
+DTEND:20240328T133000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240328T123000Z
+LAST-MODIFIED:20240328T070151Z
+LOCATION:38 215 Réunion DAEP DMSM
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF301 - Dynamique des fluides avancée# - Rattrapage DF301 - FI
+ ORE - Oral
+TRANSP:OPAQUE
+UID:Cours-513424-34-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF301 - Dynamique des fluides a
+ vancée#<br/>Mémo : Rattrapage DF301<br/>Salle : 38 215 Réunion DAEP DMSM
+ <br/>Intervenants : Fleur\, Kreys<br/>Type : Oral<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230729T154813Z
+DESCRIPTION:Matière : TCS1-MF - Mécanique et thermodynamique #\nTD : GRO
+ UPE 6\nSalle : 05 149 Cours 1A - 25\nIntervenant : Kreys\nType : PC\n
+DTEND:20231213T143000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231213T130000Z
+LAST-MODIFIED:20230729T154814Z
+LOCATION:05 149 Cours 1A - 25
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:TCS1-MF - Mécanique et thermodynamique # - GROUPE 6 - PC
+TRANSP:OPAQUE
+UID:Cours-480154-19-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : TCS1-MF - Mécanique et thermodyna
+ mique #<br/>TD : GROUPE 6<br/>Salle : 05 149 Cours 1A - 25<br/>Intervena
+ nt : Kreys<br/>Type : PC<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240829T022750Z
+DESCRIPTION:Matière : F-DF302-SIMU - Simulation numérique et turbu#\nPro
+ motion : MS Systèmes de Propulsion Aerospatiale\nTD : DF - aérodynamique
+ \, DF - turbomachines &combustion\nSalle : Amphi 1 - 192\nIntervenant : 
+ Kreys\nType : Cours\n
+DTEND:20230926T103000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230926T093000Z
+LAST-MODIFIED:20240829T022751Z
+LOCATION:Amphi 1 - 192
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF302-SIMU - Simulation numérique et turbu# - MS Systèmes de P
+ ropulsion Aerospatiale - DF - aérodynamique\, DF - turbomachines &combus
+ tion - Cours
+TRANSP:OPAQUE
+UID:Cours-477657-8-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF302-SIMU - Simulation numériq
+ ue et turbu#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>
+ TD : DF - aérodynamique\, DF - turbomachines &combustion<br/>Salle : Amp
+ hi 1 - 192<br/>Intervenant : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230904T205126Z
+DESCRIPTION:Matière : F-DF301 - Dynamique des fluides avancée#\nMémo : T
+ D rampes supersoniques et jets\nPromotion : MS Systèmes de Propulsion Ae
+ rospatiale\nTD : DF - aérodynamique\, DF - turbomachines &combustion\nSa
+ lles : 05 114 Cours 3A - 50\, 05 117 Cours 3A - 50\nIntervenants : BINDE
+ R\, Kreys\nType : PC\n
+DTEND:20230911T124500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230911T114500Z
+LAST-MODIFIED:20230904T205127Z
+LOCATION:05 114 Cours 3A - 50\, 05 117 Cours 3A - 50
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF301 - Dynamique des fluides avancée# - TD rampes supersoniqu
+ es et jets - MS Systèmes de Propulsion Aerospatiale - DF - aérodynamique
+ \, DF - turbomachines &combustion - Linker - PC
+TRANSP:OPAQUE
+UID:Cours-477577-6-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF301 - Dynamique des fluides a
+ vancée#<br/>Mémo : TD rampes supersoniques et jets<br/>Promotion : MS Sy
+ stèmes de Propulsion Aerospatiale<br/>TD : DF - aérodynamique\, DF - tur
+ bomachines &combustion<br/>Salles : 05 114 Cours 3A - 50\, 05 117 Cours 
+ 3A - 50<br/>Intervenants : Linker\, Kreys<br/>Type : PC<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240829T022750Z
+DESCRIPTION:Matière : F-DF302-SIMU - Simulation numérique et turbu#\nPro
+ motion : MS Systèmes de Propulsion Aerospatiale\nTD : DF - aérodynamique
+ \, DF - turbomachines &combustion\nSalle : Amphi 1 - 192\nIntervenant : 
+ Kreys\nType : Cours\n
+DTEND:20230926T080000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230926T070000Z
+LAST-MODIFIED:20240829T022751Z
+LOCATION:Amphi 1 - 192
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF302-SIMU - Simulation numérique et turbu# - MS Systèmes de P
+ ropulsion Aerospatiale - DF - aérodynamique\, DF - turbomachines &combus
+ tion - Cours
+TRANSP:OPAQUE
+UID:Cours-477664-8-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF302-SIMU - Simulation numériq
+ ue et turbu#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>
+ TD : DF - aérodynamique\, DF - turbomachines &combustion<br/>Salle : Amp
+ hi 1 - 192<br/>Intervenant : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231206T093203Z
+DESCRIPTION:Matière : Réservation de salles\nMémo : SIENA\nSalle : 38 21
+ 5 Réunion DAEP DMSM\nIntervenants : DELEU\, GOJON\, Kreys\, JAMME\n
+DTEND:20231214T090000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231214T080000Z
+LAST-MODIFIED:20231206T093204Z
+LOCATION:38 215 Réunion DAEP DMSM
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Réservation de salles - SIENA - DELEU\, GOJON\, JAMME
+TRANSP:OPAQUE
+UID:Cours-503242-19-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : Réservation de salles<br/>Mémo : 
+ SIENA<br/>Salle : 38 215 Réunion DAEP DMSM<br/>Intervenants : DELEU\, GO
+ JON\, Kreys\, JAMME<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230831T132852Z
+DESCRIPTION:Matière : TCS1-MF - Mécanique et thermodynamique #\nTD : GRO
+ UPE 2\nSalle : 05 137 Cours 1A - 25\nIntervenant : Kreys\nType : BE\n
+DTEND:20240111T114500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240111T093000Z
+LAST-MODIFIED:20230831T132853Z
+LOCATION:05 137 Cours 1A - 25
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:TCS1-MF - Mécanique et thermodynamique # - GROUPE 2 - BE
+TRANSP:OPAQUE
+UID:Cours-480229-23-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : TCS1-MF - Mécanique et thermodyna
+ mique #<br/>TD : GROUPE 2<br/>Salle : 05 137 Cours 1A - 25<br/>Intervena
+ nt : Kreys<br/>Type : BE<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230904T205126Z
+DESCRIPTION:Matière : F-DF301 - Dynamique des fluides avancée#\nMémo : c
+ ours intro modèles et compressible / harmonisation\nPromotion : MS Systè
+ mes de Propulsion Aerospatiale\nTD : DF - aérodynamique\, DF - turbomach
+ ines &combustion\nSalle : Amphi 2 - 192+2pmr\nIntervenant : Kreys\nTy
+ pe : Cours\n
+DTEND:20230906T103000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230906T093000Z
+LAST-MODIFIED:20230904T205127Z
+LOCATION:Amphi 2 - 192+2pmr
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF301 - Dynamique des fluides avancée# - cours intro modèles e
+ t compressible / harmonisation - MS Systèmes de Propulsion Aerospatiale 
+ - DF - aérodynamique\, DF - turbomachines &combustion - Cours
+TRANSP:OPAQUE
+UID:Cours-477308-5-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF301 - Dynamique des fluides a
+ vancée#<br/>Mémo : cours intro modèles et compressible / harmonisation<b
+ r/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>TD : DF - aéro
+ dynamique\, DF - turbomachines &combustion<br/>Salle : Amphi 2 - 192+2pm
+ r<br/>Intervenant : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240215T020011Z
+DESCRIPTION:Matière : Réservation de salles\nMémo : MAE1\nSalle : 38 215
+  Réunion DAEP DMSM\nIntervenant : Kreys\n
+DTEND:20240215T170000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240215T160000Z
+LAST-MODIFIED:20240215T020012Z
+LOCATION:38 215 Réunion DAEP DMSM
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Réservation de salles - MAE1
+TRANSP:OPAQUE
+UID:Cours-510613-28-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : Réservation de salles<br/>Mémo : 
+ MAE1<br/>Salle : 38 215 Réunion DAEP DMSM<br/>Intervenant : Kreys<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240514T122750Z
+DESCRIPTION:Matière : 1MAE800 - Computational approach in flu#\nMémo : C
+ #3\nTD : 1MAE800\nSalles : 38 137A Cours - 12 (24 si A et B)\, 38 137B C
+ ours - 12 (24 si A et B)\nIntervenant : Kreys\nType : Cours\n
+DTEND:20240521T130000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240521T120000Z
+LAST-MODIFIED:20240514T122751Z
+LOCATION:38 137A Cours - 12 (24 si A et B)\, 38 137B Cours - 12 (24 si A
+  et B)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:1MAE800 - Computational approach in flu# - C#3 - 1MAE800 - Cours
+TRANSP:OPAQUE
+UID:Cours-513490-42-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : 1MAE800 - Computational approach 
+ in flu#<br/>Mémo : C#3<br/>TD : 1MAE800<br/>Salles : 38 137A Cours - 12 
+ (24 si A et B)\, 38 137B Cours - 12 (24 si A et B)<br/>Intervenant : GRE
+ SSIER<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240829T022750Z
+DESCRIPTION:Matière : F-DF302-SIMU - Simulation numérique et turbu#\nPro
+ motion : MS Systèmes de Propulsion Aerospatiale\nTD : DF - aérodynamique
+ \, DF - turbomachines &combustion\nSalles : 61 003 J4 INFO - 30\, 61 004
+  J3 INFO - 30\, 61 010 INFO - 30\nIntervenants : Fleur\, Kreys\, GRON
+ DIN\, MEZIAT\, Astro\, WING\nType : BE\n
+DTEND:20231003T130000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231003T120000Z
+LAST-MODIFIED:20240829T022751Z
+LOCATION:61 003 J4 INFO - 30\, 61 004 J3 INFO - 30\, 61 010 INFO - 30
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF302-SIMU - Simulation numérique et turbu# - MS Systèmes de P
+ ropulsion Aerospatiale - DF - aérodynamique\, DF - turbomachines &combus
+ tion - Fleur\, Rondin\, MEZIAT\, Astro\, WING - BE
+TRANSP:OPAQUE
+UID:Cours-477666-9-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF302-SIMU - Simulation numériq
+ ue et turbu#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>
+ TD : DF - aérodynamique\, DF - turbomachines &combustion<br/>Salles : 61
+  003 J4 INFO - 30\, 61 004 J3 INFO - 30\, 61 010 INFO - 30<br/>Intervena
+ nts : Fleur\, Kreys\, Rondin\, MEZIAT\, Astro\, WING<br/>Type : B
+ E<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240524T122750Z
+DESCRIPTION:Matière : EAEP-103 - Acoustique et ondes de choc#\nTD : Acou
+ stiques et ondes de choc\nSalle : 38 047 Info - 15\nIntervenant : GRESSI
+ ER\nType : C*\n
+DTEND:20240527T081500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240527T060000Z
+LAST-MODIFIED:20240524T122750Z
+LOCATION:38 047 Info - 15
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:EAEP-103 - Acoustique et ondes de choc# - Acoustiques et ondes d
+ e choc - C*
+TRANSP:OPAQUE
+UID:Cours-507329-43-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : EAEP-103 - Acoustique et ondes de
+  choc#<br/>TD : Acoustiques et ondes de choc<br/>Salle : 38 047 Info - 1
+ 5<br/>Intervenant : Kreys<br/>Type : C*<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230904T205126Z
+DESCRIPTION:Matière : F-DF301 - Dynamique des fluides avancée#\nMémo : T
+ D tube à choc\nPromotion : MS Systèmes de Propulsion Aerospatiale\nTD : 
+ DF - aérodynamique\, DF - turbomachines &combustion\nSalles : 05 114 Cou
+ rs 3A - 50\, 05 117 Cours 3A - 50\nIntervenants : Kreys\, JAMME\nType
+  : PC\n
+DTEND:20230925T140000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230925T130000Z
+LAST-MODIFIED:20230904T205127Z
+LOCATION:05 114 Cours 3A - 50\, 05 117 Cours 3A - 50
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF301 - Dynamique des fluides avancée# - TD tube à choc - MS S
+ ystèmes de Propulsion Aerospatiale - DF - aérodynamique\, DF - turbomach
+ ines &combustion - JAMME - PC
+TRANSP:OPAQUE
+UID:Cours-477560-8-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF301 - Dynamique des fluides a
+ vancée#<br/>Mémo : TD tube à choc<br/>Promotion : MS Systèmes de Propuls
+ ion Aerospatiale<br/>TD : DF - aérodynamique\, DF - turbomachines &combu
+ stion<br/>Salles : 05 114 Cours 3A - 50\, 05 117 Cours 3A - 50<br/>Inter
+ venants : Kreys\, JAMME<br/>Type : PC<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230729T154813Z
+DESCRIPTION:Matière : TCS1-MF - Mécanique et thermodynamique #\nTD : GRO
+ UPE 2\nSalle : 05 143 Cours 1A - 25\nIntervenant : Kreys\nType : PC\n
+DTEND:20231219T103000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231219T093000Z
+LAST-MODIFIED:20230729T154814Z
+LOCATION:05 143 Cours 1A - 25
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:TCS1-MF - Mécanique et thermodynamique # - GROUPE 2 - PC
+TRANSP:OPAQUE
+UID:Cours-480176-20-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : TCS1-MF - Mécanique et thermodyna
+ mique #<br/>TD : GROUPE 2<br/>Salle : 05 143 Cours 1A - 25<br/>Intervena
+ nt : Kreys<br/>Type : PC<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230904T205126Z
+DESCRIPTION:Matière : F-DF301 - Dynamique des fluides avancée#\nMémo : T
+ D tube à choc\nPromotion : MS Systèmes de Propulsion Aerospatiale\nTD : 
+ DF - aérodynamique\, DF - turbomachines &combustion\nSalles : 05 114 Cou
+ rs 3A - 50\, 05 117 Cours 3A - 50\nIntervenants : Kreys\, JAMME\nType
+  : PC\n
+DTEND:20230925T124500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230925T114500Z
+LAST-MODIFIED:20230904T205127Z
+LOCATION:05 114 Cours 3A - 50\, 05 117 Cours 3A - 50
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF301 - Dynamique des fluides avancée# - TD tube à choc - MS S
+ ystèmes de Propulsion Aerospatiale - DF - aérodynamique\, DF - turbomach
+ ines &combustion - JAMME - PC
+TRANSP:OPAQUE
+UID:Cours-477561-8-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF301 - Dynamique des fluides a
+ vancée#<br/>Mémo : TD tube à choc<br/>Promotion : MS Systèmes de Propuls
+ ion Aerospatiale<br/>TD : DF - aérodynamique\, DF - turbomachines &combu
+ stion<br/>Salles : 05 114 Cours 3A - 50\, 05 117 Cours 3A - 50<br/>Inter
+ venants : Kreys\, JAMME<br/>Type : PC<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231005T030256Z
+DESCRIPTION:Matière : Réservation de salles\nMémo : discussion thèse voi
+ lure tournante\nSalle : 38 215 Réunion DAEP DMSM\nIntervenants : Flont
+ \, Kreys\, JARDIN\, Astro\n
+DTEND:20231013T130000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231013T120000Z
+LAST-MODIFIED:20231005T030257Z
+LOCATION:38 215 Réunion DAEP DMSM
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Réservation de salles - discussion thèse voilure tournante - FON
+ TANE\, JARDIN\, Astro
+TRANSP:OPAQUE
+UID:Cours-498278-10-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : Réservation de salles<br/>Mémo : 
+ discussion thèse voilure tournante<br/>Salle : 38 215 Réunion DAEP DMSM<
+ br/>Intervenants : Flont\, Kreys\, JARDIN\, Astro<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240524T122750Z
+DESCRIPTION:Matière : TCS1-MF - Mécanique et thermodynamique #\nPromotio
+ n : Formation d'ingénieur ISAE-SUPAERO (MSc) - 1\nSalles : 05 151 Cours 
+ 1A - 41\, Amphi 1 - 192\nIntervenant : Kreys\nType : Cours\n
+DTEND:20231211T094500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231211T081500Z
+LAST-MODIFIED:20240524T122750Z
+LOCATION:05 151 Cours 1A - 41\, Amphi 1 - 192
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:TCS1-MF - Mécanique et thermodynamique # - Formation d'ingénieur
+  ISAE-SUPAERO (MSc) - 1 - Cours
+TRANSP:OPAQUE
+UID:Cours-480171-19-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : TCS1-MF - Mécanique et thermodyna
+ mique #<br/>Promotion : Formation d'ingénieur ISAE-SUPAERO (MSc) - 1<br/
+ >Salles : 05 151 Cours 1A - 41\, Amphi 1 - 192<br/>Intervenant : GRESSIE
+ R<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240531T162750Z
+DESCRIPTION:Matière : EAEP-103 - Acoustique et ondes de choc#\nMémo : in
+ tervenants?\nTD : Acoustiques et ondes de choc\nSalle : 38 047 Info - 15
+ \nIntervenant : Kreys\nType : BE\n
+DTEND:20240531T093000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240531T060000Z
+LAST-MODIFIED:20240531T162751Z
+LOCATION:38 047 Info - 15
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:EAEP-103 - Acoustique et ondes de choc# - intervenants? - Acoust
+ iques et ondes de choc - BE
+TRANSP:OPAQUE
+UID:Cours-507337-43-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : EAEP-103 - Acoustique et ondes de
+  choc#<br/>Mémo : intervenants?<br/>TD : Acoustiques et ondes de choc<br
+ />Salle : 38 047 Info - 15<br/>Intervenant : Kreys<br/>Type : BE<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240829T022750Z
+DESCRIPTION:Matière : F-DF302-SIMU - Simulation numérique et turbu#\nPro
+ motion : MS Systèmes de Propulsion Aerospatiale\nTD : DF - aérodynamique
+ \, DF - turbomachines &combustion\nSalle : Amphi 1 - 192\nIntervenant : 
+ Kreys\nType : Cours\n
+DTEND:20231003T083000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231003T073000Z
+LAST-MODIFIED:20240829T022751Z
+LOCATION:Amphi 1 - 192
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF302-SIMU - Simulation numérique et turbu# - MS Systèmes de P
+ ropulsion Aerospatiale - DF - aérodynamique\, DF - turbomachines &combus
+ tion - Cours
+TRANSP:OPAQUE
+UID:Cours-477665-9-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF302-SIMU - Simulation numériq
+ ue et turbu#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>
+ TD : DF - aérodynamique\, DF - turbomachines &combustion<br/>Salle : Amp
+ hi 1 - 192<br/>Intervenant : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231206T093203Z
+DESCRIPTION:Matière : SFE\nMémo : Soutenance SFE Vianney Dubois\nSalle :
+  38 215 Réunion DAEP DMSM\nIntervenants : Flont\, Kreys\n
+DTEND:20231214T100000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231214T090000Z
+LAST-MODIFIED:20231206T093204Z
+LOCATION:38 215 Réunion DAEP DMSM
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:SFE - Soutenance SFE Vianney Dubois - Flont
+TRANSP:OPAQUE
+UID:Cours-503543-19-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : SFE<br/>Mémo : Soutenance SFE Via
+ nney Dubois<br/>Salle : 38 215 Réunion DAEP DMSM<br/>Intervenants : FONT
+ ANE\, Kreys<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230729T154813Z
+DESCRIPTION:Matière : F-DF306 - Aérodynamique des turbomachin#\nPromotio
+ n : MS Systèmes de Propulsion Aerospatiale\nTD : DF - turbomachines &com
+ bustion\nSalle : 05 114 Cours 3A - 50\nIntervenant : Kreys\nType : Co
+ urs\n
+DTEND:20231115T150000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231115T140000Z
+LAST-MODIFIED:20230729T154814Z
+LOCATION:05 114 Cours 3A - 50
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF306 - Aérodynamique des turbomachin# - MS Systèmes de Propul
+ sion Aerospatiale - DF - turbomachines &combustion - Cours
+TRANSP:OPAQUE
+UID:Cours-479355-15-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF306 - Aérodynamique des turbo
+ machin#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>TD : 
+ DF - turbomachines &combustion<br/>Salle : 05 114 Cours 3A - 50<br/>Inte
+ rvenant : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240829T022750Z
+DESCRIPTION:Matière : F-DF302-SIMU - Simulation numérique et turbu#\nPro
+ motion : MS Systèmes de Propulsion Aerospatiale\nTD : DF - aérodynamique
+ \, DF - turbomachines &combustion\nSalle : Amphi 1 - 192\nIntervenant : 
+ Kreys\nType : Cours\n
+DTEND:20230926T091500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230926T081500Z
+LAST-MODIFIED:20240829T022751Z
+LOCATION:Amphi 1 - 192
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF302-SIMU - Simulation numérique et turbu# - MS Systèmes de P
+ ropulsion Aerospatiale - DF - aérodynamique\, DF - turbomachines &combus
+ tion - Cours
+TRANSP:OPAQUE
+UID:Cours-477656-8-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF302-SIMU - Simulation numériq
+ ue et turbu#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>
+ TD : DF - aérodynamique\, DF - turbomachines &combustion<br/>Salle : Amp
+ hi 1 - 192<br/>Intervenant : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230729T154813Z
+DESCRIPTION:Matière : TCS1-MF - Mécanique et thermodynamique #\nTD : GRO
+ UPE 7\nSalle : 05 147 Cours 1A - 25\nIntervenant : Kreys\nType : PC\n
+DTEND:20231219T140000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231219T130000Z
+LAST-MODIFIED:20230729T154814Z
+LOCATION:05 147 Cours 1A - 25
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:TCS1-MF - Mécanique et thermodynamique # - GROUPE 7 - PC
+TRANSP:OPAQUE
+UID:Cours-480172-20-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : TCS1-MF - Mécanique et thermodyna
+ mique #<br/>TD : GROUPE 7<br/>Salle : 05 147 Cours 1A - 25<br/>Intervena
+ nt : Kreys<br/>Type : PC<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20231120T151523Z
+DESCRIPTION:Matière : Réservation de salles\nMémo : Réunion DAEP  - gest
+ ion jeunes chercheurs\nSalle : 38 215 Réunion DAEP DMSM\nIntervenants : 
+ Papineau\, DOUE\, GEORGEAULT\, Kreys\n
+DTEND:20231205T153000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231205T140000Z
+LAST-MODIFIED:20231120T151524Z
+LOCATION:38 215 Réunion DAEP DMSM
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Réservation de salles - Réunion DAEP  - gestion jeunes chercheur
+ s - Papineau\, DOUE\, GEORGEAULT
+TRANSP:OPAQUE
+UID:Cours-501828-18-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : Réservation de salles<br/>Mémo : 
+ Réunion DAEP  - gestion jeunes chercheurs<br/>Salle : 38 215 Réunion DAE
+ P DMSM<br/>Intervenants : Papineau\, DOUE\, GEORGEAULT\, Kreys<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230904T205126Z
+DESCRIPTION:Matière : F-DF301 - Dynamique des fluides avancée#\nMémo : c
+ ours instationnaire 1D compressible\nPromotion : MS Systèmes de Propulsi
+ on Aerospatiale\nTD : DF - aérodynamique\, DF - turbomachines &combustio
+ n\nSalle : Amphi 3 - 192+1pmr\nIntervenant : Kreys\nType : Cours\n
+DTEND:20230920T091500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20230920T081500Z
+LAST-MODIFIED:20230904T205127Z
+LOCATION:Amphi 3 - 192+1pmr
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF301 - Dynamique des fluides avancée# - cours instationnaire 
+ 1D compressible - MS Systèmes de Propulsion Aerospatiale - DF - aérodyna
+ mique\, DF - turbomachines &combustion - Cours
+TRANSP:OPAQUE
+UID:Cours-477563-7-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF301 - Dynamique des fluides a
+ vancée#<br/>Mémo : cours instationnaire 1D compressible<br/>Promotion : 
+ MS Systèmes de Propulsion Aerospatiale<br/>TD : DF - aérodynamique\, DF 
+ - turbomachines &combustion<br/>Salle : Amphi 3 - 192+1pmr<br/>Intervena
+ nt : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20230729T154813Z
+DESCRIPTION:Matière : F-DF306 - Aérodynamique des turbomachin#\nPromotio
+ n : MS Systèmes de Propulsion Aerospatiale\nTD : DF - turbomachines &com
+ bustion\nSalle : 05 114 Cours 3A - 50\nIntervenant : Kreys\nType : Co
+ urs\n
+DTEND:20231115T134500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231115T124500Z
+LAST-MODIFIED:20230729T154814Z
+LOCATION:05 114 Cours 3A - 50
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:F-DF306 - Aérodynamique des turbomachin# - MS Systèmes de Propul
+ sion Aerospatiale - DF - turbomachines &combustion - Cours
+TRANSP:OPAQUE
+UID:Cours-479354-15-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : F-DF306 - Aérodynamique des turbo
+ machin#<br/>Promotion : MS Systèmes de Propulsion Aerospatiale<br/>TD : 
+ DF - turbomachines &combustion<br/>Salle : 05 114 Cours 3A - 50<br/>Inte
+ rvenant : Kreys<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240516T122750Z
+DESCRIPTION:Matière : EAEP-103 - Acoustique et ondes de choc#\nTD : Acou
+ stiques et ondes de choc\nSalles : 38 137A Cours - 12 (24 si A et B)\, 3
+ 8 137B Cours - 12 (24 si A et B)\nIntervenant : Kreys\nType : C*\n
+DTEND:20240516T081500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240516T060000Z
+LAST-MODIFIED:20240516T122751Z
+LOCATION:38 137A Cours - 12 (24 si A et B)\, 38 137B Cours - 12 (24 si A
+  et B)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:EAEP-103 - Acoustique et ondes de choc# - Acoustiques et ondes d
+ e choc - C*
+TRANSP:OPAQUE
+UID:Cours-507322-41-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : EAEP-103 - Acoustique et ondes de
+  choc#<br/>TD : Acoustiques et ondes de choc<br/>Salles : 38 137A Cours 
+ - 12 (24 si A et B)\, 38 137B Cours - 12 (24 si A et B)<br/>Intervenant 
+ : Kreys<br/>Type : C*<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240524T122750Z
+DESCRIPTION:Matière : TCS1-MF - Mécanique et thermodynamique #\nPromotio
+ n : Formation d'ingénieur ISAE-SUPAERO (MSc) - 1\nSalles : 05 151 Cours 
+ 1A - 41\, Amphi 1 - 192\nIntervenant : Kreys\nType : Cours\n
+DTEND:20231218T103000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20231218T093000Z
+LAST-MODIFIED:20240524T122750Z
+LOCATION:05 151 Cours 1A - 41\, Amphi 1 - 192
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:TCS1-MF - Mécanique et thermodynamique # - Formation d'ingénieur
+  ISAE-SUPAERO (MSc) - 1 - Cours
+TRANSP:OPAQUE
+UID:Cours-480115-20-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : TCS1-MF - Mécanique et thermodyna
+ mique #<br/>Promotion : Formation d'ingénieur ISAE-SUPAERO (MSc) - 1<br/
+ >Salles : 05 151 Cours 1A - 41\, Amphi 1 - 192<br/>Intervenant : GRESSIE
+ R<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240528T082750Z
+DESCRIPTION:Matière : Réservation de salles\nMémo : Meeting Marildo\nSal
+ le : 38 215 Réunion DAEP DMSM\nIntervenants : Flont\, Kreys\, NASTR
+ O\n
+DTEND:20240528T091500Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240528T083000Z
+LAST-MODIFIED:20240528T082751Z
+LOCATION:38 215 Réunion DAEP DMSM
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Réservation de salles - Meeting Marildo - Flont\, Astro
+TRANSP:OPAQUE
+UID:Cours-516151-43-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : Réservation de salles<br/>Mémo : 
+ Meeting Marildo<br/>Salle : 38 215 Réunion DAEP DMSM<br/>Intervenants : 
+ Flont\, Kreys\, Astro<br/>
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20240617T122750Z
+DESCRIPTION:Matière : Réservation de salles\nMémo : TAIPEI\nSalle : 38 1
+ 37A Cours - 12 (24 si A et B)\nIntervenants : Linker\, Kreys\, WING
+ \n
+DTEND:20240618T100000Z
+DTSTAMP:20240829T100334Z
+DTSTART:20240618T083000Z
+LAST-MODIFIED:20240617T122751Z
+LOCATION:38 137A Cours - 12 (24 si A et B)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Réservation de salles - TAIPEI - Linker\, WING
+TRANSP:OPAQUE
+UID:Cours-516817-46-Kreys_Jerem-Index-Education
+X-ALT-DESC;FMTTYPE=text/html:Matière : Réservation de salles<br/>Mémo : 
+ TAIPEI<br/>Salle : 38 137A Cours - 12 (24 si A et B)<br/>Intervenants : 
+ Linker\, Kreys\, WING<br/>
+END:VEVENT
+END:VCALENDAR
