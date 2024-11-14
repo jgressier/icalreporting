@@ -35,6 +35,16 @@ class IcalFile:
         else:
             raise ValueError(f"Unsupported engine: {self._engine}")
 
+    def nevents(self):
+        if self._calendar is None:
+            raise ValueError("Calendar not loaded")
+        if self._engine == 'icalendar':
+            return len(self._calendar.subcomponents)
+        elif self._engine == 'ical':
+            return len(self._calendar.events)
+        else:
+            raise ValueError(f"Unsupported engine: {self._engine}")
+        
     def filter_summary(self, keywords: list):
         if self._calendar is None:
             raise ValueError("Calendar not loaded")
@@ -77,7 +87,7 @@ class IcalFile:
                 icsfile.write(self._calendar.to_ical())
         elif self._engine == 'ical':
             with filename.open('w') as icsfile:
-                icsfile.write(IcsCalendarStream.calendar_to_ics(self._calendar.to_ics()))
+                icsfile.write(IcsCalendarStream.calendar_to_ics(self._calendar))
         else:
             raise ValueError(f"Unsupported engine: {self._engine}")
         print(f"Calendar written successfully to {filename}")
