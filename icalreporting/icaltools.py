@@ -6,16 +6,16 @@ from ical.calendar_stream import IcsCalendarStream
 class IcalFile:
     _engines = ['icalendar', 'ical']
 
-    def __init__(self, filename, engine='icalendar'):
+    def __init__(self, filename, engine='icalendar', verbose=True):
         self._engine = engine
         self._filename = Path(filename)
         self._calendar = None
-        print(f"Initializing IcalFile with engine {engine} and file {filename}")
+        if verbose:
+            print(f"Initializing IcalFile with engine {engine} and file {filename}")
 
     def _read_icalendar(self):
         with self._filename.open('r') as icsfile:
             self._calendar = Calendar.from_ical(icsfile.read())
-        print(len(self._calendar.subcomponents))
         # for item in self._calendar.walk('VALARM'):
         #     print(item)
         #     self._calendar.subcomponents.remove(item)
@@ -28,6 +28,8 @@ class IcalFile:
         print("Calendar read successfully using ical")
 
     def read(self):
+        if not self._filename.exists():
+            raise FileNotFoundError(f"File {self._filename} not found")
         if self._engine == 'icalendar':
             self._read_icalendar()
         elif self._engine == 'ical':

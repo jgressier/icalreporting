@@ -1,6 +1,8 @@
+
 ## version 0.3.0 (2024/11/13)
 
 - `reporting.icaltools`: some tools using a less sensitive package icalendar
+- new command line `icalcheck <file>`
 
 ## version 0.2.0 (2024/08/30)
 
