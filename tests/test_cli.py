@@ -1,7 +1,7 @@
 from icalreporting._cli import icalcheck
 
 def test_icalcheck_noarg(capsys):
-    check = icalcheck()
+    check = icalcheck([])
     captured = capsys.readouterr()
     assert "usage: icalcheck <filename>" in captured.out
     assert not check
