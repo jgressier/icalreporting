@@ -3,6 +3,7 @@
 
 - `reporting.icaltools`: some tools using a less sensitive package icalendar
 - new command line `icalcheck <file>`
+- new command line `icalclean <file>`
 
 ## version 0.2.0 (2024/08/30)
 

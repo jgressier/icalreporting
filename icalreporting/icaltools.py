@@ -2,6 +2,7 @@ from pathlib import Path
 import importlib
 from icalendar import Calendar
 from ical.calendar_stream import IcsCalendarStream
+from datetime import timedelta
 
 class IcalFile:
     _engines = ['icalendar', 'ical']
@@ -41,7 +42,7 @@ class IcalFile:
         if self._calendar is None:
             raise ValueError("Calendar not loaded")
         if self._engine == 'icalendar':
-            return len(self._calendar.subcomponents)
+            return len(self._calendar.walk('VEVENT'))
         elif self._engine == 'ical':
             return len(self._calendar.events)
         else:
@@ -77,6 +78,29 @@ class IcalFile:
             self._calendar.walk('VEVENT').clear()
         elif self._engine == 'ical':
             self._calendar.events = []
+        else:
+            raise ValueError(f"Unsupported engine: {self._engine}")
+
+    @staticmethod
+    def normalize_to_full_minutes(delta):
+        """
+        Ensures a timedelta is represented in full minutes.
+        Rounds seconds to the nearest minute and returns a new timedelta.
+        """
+        # Calculate total seconds and round to the nearest minute
+        total_seconds = delta.total_seconds()
+        full_minutes = round(total_seconds / 60)  # Convert to minutes and round
+        # Create a new timedelta with the normalized minutes
+        return timedelta(minutes=full_minutes)
+
+    def normalize_vtimezone(self):
+        if self._calendar is None:
+            raise ValueError("Calendar not loaded")
+        if self._engine == 'icalendar':
+            for vtzone in self._calendar.walk('VTIMEZONE'):
+                for tz in vtzone.subcomponents:
+                    tz['TZOFFSETFROM'].td = self.normalize_to_full_minutes(tz['TZOFFSETFROM'].td)
+                    tz['TZOFFSETTO'].td = self.normalize_to_full_minutes(tz['TZOFFSETTO'].td)
         else:
             raise ValueError(f"Unsupported engine: {self._engine}")
         
