@@ -43,3 +43,6 @@ Untitled*.ipynb
 *.xdump
 *.log
 *.info
+
+# py venv
+py312

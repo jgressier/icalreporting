@@ -1,6 +1,6 @@
 [project]
 name = "icalreporting"
-version = "0.2.0"
+version = "0.3.0"
 description = "Reporting tools from ical files"
 authors = [{name="J. Gressier", email="jeremie.gressier@isae-supaero.fr"}]
 readme = "README.md"
@@ -14,6 +14,7 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Topic :: Software Development :: Libraries :: Python Modules" ]
 requires-python = ">=3.9"
 dependencies = [
@@ -37,6 +38,10 @@ dev = [
 requires      = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[project.scripts]
+icalcheck = 'icalreporting._cli:icalcheck'
+icalclean = 'icalreporting._cli:icalclean'
+
 [tool.pytest.ini_options]
 minversion = "6.0"
 addopts = "--cov -v"
@@ -45,7 +50,7 @@ testpaths = [
 ]
 
 [tool.bumpver]
-current_version = "v0.2.0"
+current_version = "v0.3.0"
 version_pattern = "vMAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} to {new_version}"
 commit = true
