@@ -15,12 +15,14 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Software Development :: Libraries :: Python Modules" ]
 requires-python = ">=3.9"
 dependencies = [
     "pandas >= 2.1",
     "openpyxl >= 3.1",
-    "ical >= 4.5" ]
+    "ical >= 4.5",
+    "icalendar" ]
 
 [project.urls]
 Homepage = "https://github.com/jgressier/icalreporting"
