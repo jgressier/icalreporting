@@ -1,5 +1,6 @@
 import icalreporting.reporting as ir
-from datetime import datetime, timedelta
+from datetime import datetime, time, timedelta
+from pathlib import Path
 
 def test_init():
     prjname = "my_original_name"
@@ -24,3 +25,42 @@ def test_properties():
     path = "examples/projectA"
     project = ir.Project(name=prjname, folder=path)
     project.load_ics()
+
+
+def test_all_day_event():
+    dataframe = ir.ical_to_dframe(
+        Path("examples/example_variations.ics"),
+        datetime(2024, 11, 1),
+        datetime(2024, 12, 1),
+    )
+
+    event = dataframe[dataframe["name"] == "All Day Workshop"].iloc[0]
+    assert event["h_begin"] == time(9)
+    assert event["duration"] == 8.0
+
+
+def test_multiday_all_day_event(tmp_path):
+    filename = tmp_path / "multiday.ics"
+    filename.write_text(
+        "BEGIN:VCALENDAR\n"
+        "VERSION:2.0\n"
+        "PRODID:-//icalreporting//tests//EN\n"
+        "BEGIN:VEVENT\n"
+        "UID:multiday-test\n"
+        "DTSTAMP:20240101T000000Z\n"
+        "DTSTART;VALUE=DATE:20241114\n"
+        "DTEND;VALUE=DATE:20241116\n"
+        "SUMMARY:Two Day Workshop\n"
+        "END:VEVENT\n"
+        "END:VCALENDAR\n"
+    )
+
+    dataframe = ir.ical_to_dframe(
+        filename,
+        datetime(2024, 11, 1),
+        datetime(2024, 12, 1),
+    )
+
+    event = dataframe.iloc[0]
+    assert event["h_begin"] == time(9)
+    assert event["duration"] == 16.0

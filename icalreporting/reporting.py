@@ -13,7 +13,7 @@ note..:
     - ical (handle recurring events)
 """
 import re
-from datetime import datetime, timedelta
+from datetime import datetime, time, timedelta
 from ical.calendar_stream import IcsCalendarStream
 import pandas as pd
 from pathlib import Path
@@ -43,8 +43,12 @@ def ical_to_dframe(filename: Path, startdate: datetime, enddate: datetime):
                 "date": event.dtstart,
                 "year": event.dtstart.year,
                 "month": event.dtstart.month,
-                "h_begin": event.dtstart.time,
-                "duration": (event.dtend - event.dtstart).seconds / 3600.0,
+                "h_begin": event.dtstart.time() if isinstance(event.dtstart, datetime) else time(9),
+                "duration": (
+                    (event.dtend - event.dtstart).total_seconds() / 3600.0
+                    if isinstance(event.dtstart, datetime)
+                    else (event.dtend - event.dtstart).days * 8.0
+                ),
                 "name": event.summary,
                 "description": event.description,
                 "begin": event.dtstart,
