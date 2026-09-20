@@ -42,7 +42,7 @@ def icalcheck(argv=None): # argv for tests
     return not error # for pytest
 
 def icalclean(argv=None):
-    error, argv = _parseargs(argv, helpmsg="usage: icalcheck <filename>")
+    error, argv = _parseargs(argv, helpmsg="usage: icalclean <filename>")
     if error:
         return not error
     filename = argv[0]

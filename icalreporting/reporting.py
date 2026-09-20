@@ -251,7 +251,7 @@ class Hyperplanning(IcalList):
 
     def add_tab_course(self, wb, course: str):
         dfwp = self._dframe[self._dframe["Course"] == course].loc[
-            :, ["date", "Member", "duration", "Course", "TypeCourse", "name", "year", "month"]
+            :, ["date", "Member", "duration", "Course", "CourseType", "name", "year", "month"]
         ]
         dfpiv = dfwp.pivot_table(
             values="duration", index="Member", columns="CourseType", aggfunc="sum"

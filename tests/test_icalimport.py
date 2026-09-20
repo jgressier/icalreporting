@@ -1,6 +1,10 @@
-import icalreporting.reporting as ir
 from datetime import datetime, time, timedelta
 from pathlib import Path
+
+import pytest
+
+import icalreporting.reporting as ir
+
 
 def test_init():
     prjname = "my_original_name"
@@ -8,23 +12,23 @@ def test_init():
     icallist = ir.IcalList(name=prjname, folder=path)
     assert icallist._name == prjname
     assert icallist._folder == path
-    for d in (icallist._start, icallist._end):
-        assert isinstance(d, datetime)
+    for date in (icallist._start, icallist._end):
+        assert isinstance(date, datetime)
     assert icallist._start.date().isoformat() == ir._default_startdate
-    assert (icallist._end-timedelta(days=1)).date().isoformat() == ir._default_enddate
+    assert (icallist._end - timedelta(days=1)).date().isoformat() == ir._default_enddate
+
 
 def test_open():
-    prjname = "my_original_name"
-    path = "examples/projectA"
-    icallist = ir.IcalList(name=prjname, folder=path)
+    icallist = ir.IcalList(name="list", folder="examples/projectA")
     icallist.load_ics()
-    assert len(icallist.members()) == 2
+    assert icallist.members() == {"Abraracourcix", "Falbala"}
 
-def test_properties():
-    prjname = "my_original_name"
-    path = "examples/projectA"
-    project = ir.Project(name=prjname, folder=path)
-    project.load_ics()
+
+def test_missing_ics_files(tmp_path):
+    icallist = ir.IcalList(name="empty", folder=tmp_path)
+
+    with pytest.raises(FileNotFoundError, match=r"no \*\.ics file found"):
+        icallist.load_ics()
 
 
 def test_all_day_event():
@@ -37,6 +41,10 @@ def test_all_day_event():
     event = dataframe[dataframe["name"] == "All Day Workshop"].iloc[0]
     assert event["h_begin"] == time(9)
     assert event["duration"] == 8.0
+
+    timed_event = dataframe[dataframe["name"] == "Client Call"].iloc[0]
+    assert timed_event["h_begin"] == time(14)
+    assert timed_event["duration"] == 1.0
 
 
 def test_multiday_all_day_event(tmp_path):
@@ -52,7 +60,8 @@ def test_multiday_all_day_event(tmp_path):
         "DTEND;VALUE=DATE:20241116\n"
         "SUMMARY:Two Day Workshop\n"
         "END:VEVENT\n"
-        "END:VCALENDAR\n"
+        "END:VCALENDAR\n",
+        encoding="utf-8",
     )
 
     dataframe = ir.ical_to_dframe(

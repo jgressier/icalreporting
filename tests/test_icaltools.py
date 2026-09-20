@@ -1,58 +1,119 @@
-import pytest
-from icalreporting.icaltools import IcalFile
+from datetime import timedelta
 from pathlib import Path
+from types import SimpleNamespace
+
+import pytest
+
+from icalreporting.icaltools import IcalFile
+
+
+EXAMPLE = Path("examples/example_variations.ics")
+
 
 def test_icalfile_init():
-    icalfile = IcalFile('examples/example_variations.ics')
-    # test default engine
-    assert icalfile._engine == 'icalendar'
-    assert icalfile._filename == Path('examples/example_variations.ics')
-    # without read, calendar should be None
+    icalfile = IcalFile(EXAMPLE)
+    assert icalfile._engine == "icalendar"
+    assert icalfile._filename == EXAMPLE
     assert icalfile._calendar is None
 
+
 def test_icalfile_read_icalendar():
-    icalfile = IcalFile('examples/example_variations.ics', engine='icalendar')
+    icalfile = IcalFile(EXAMPLE, engine="icalendar")
     icalfile.read()
     assert icalfile._calendar is not None
-    assert icalfile._engine == 'icalendar'
     assert icalfile.nevents() == 7
+
 
 def test_icalfile_read_ical():
-    icalfile = IcalFile('examples/example_variations.ics', engine='ical')
+    icalfile = IcalFile(EXAMPLE, engine="ical")
     icalfile.read()
     assert icalfile._calendar is not None
-    assert icalfile._engine == 'ical'
     assert icalfile.nevents() == 7
 
-@pytest.mark.parametrize("engine", ['icalendar', 'ical'])
+
+@pytest.mark.parametrize("engine", ["icalendar", "ical"])
 def test_icalfile_filter_summary(engine):
-    icalfile = IcalFile('examples/example_variations.ics', engine=engine)
+    icalfile = IcalFile(EXAMPLE, engine=engine)
     icalfile.read()
-    keywords = ['team']
-    filtered_events = icalfile.filter_summary(keywords)
+    filtered_events = icalfile.filter_summary(["team"])
     assert len(filtered_events) == 2
     assert icalfile.nevents() == 2
 
-@pytest.mark.parametrize("engine", ['icalendar', 'ical'])
-def test_icalfile_write(engine):
-    icalfile = IcalFile('examples/example_variations.ics', engine=engine)
+
+@pytest.mark.parametrize("engine", ["icalendar", "ical"])
+def test_icalfile_write(engine, tmp_path):
+    icalfile = IcalFile(EXAMPLE, engine=engine)
     icalfile.read()
-    icalfile.write('output.ics')
-    assert Path('output.ics').exists()
+    output = tmp_path / f"output-{engine}.ics"
+    icalfile.write(output)
+
+    written = IcalFile(output, engine=engine, verbose=False)
+    written.read()
+    assert written.nevents() == 7
+
 
 def test_icalfile_invalid_engine():
-    with pytest.raises(ValueError):
-        icalfile = IcalFile('examples/example_variations.ics', engine='invalid')
-        icalfile.read()
+    with pytest.raises(ValueError, match="Unsupported engine"):
+        IcalFile(EXAMPLE, engine="invalid").read()
 
-def test_icalfile_calendar_not_loaded():
-    icalfile = IcalFile('examples/example_variations.ics')
-    with pytest.raises(ValueError):
-        icalfile.filter_summary(['test'])
 
-def test_icalfile_empty_keywords():
-    icalfile = IcalFile('examples/example_variations.ics')
+@pytest.mark.parametrize(
+    "method, args",
+    [
+        ("nevents", ()),
+        ("filter_summary", (["test"],)),
+        ("clean_events", ()),
+        ("normalize_vtimezone", ()),
+        ("write", ("unused.ics",)),
+    ],
+)
+def test_icalfile_calendar_not_loaded(method, args):
+    icalfile = IcalFile(EXAMPLE)
+    with pytest.raises(ValueError, match="Calendar not loaded"):
+        getattr(icalfile, method)(*args)
+
+
+@pytest.mark.parametrize("engine", ["icalendar", "ical"])
+def test_icalfile_empty_keywords(engine):
+    icalfile = IcalFile(EXAMPLE, engine=engine)
     icalfile.read()
-    keywords = []
-    filtered_events = icalfile.filter_summary(keywords)
-    assert len(filtered_events) == 0
+    filtered_events = icalfile.filter_summary([])
+    assert filtered_events == []
+    assert icalfile.nevents() == 0
+
+
+@pytest.mark.parametrize(
+    "method, args",
+    [
+        ("nevents", ()),
+        ("filter_summary", (["test"],)),
+        ("clean_events", ()),
+        ("normalize_vtimezone", ()),
+        ("write", ("unused.ics",)),
+    ],
+)
+def test_unsupported_engine_after_load(method, args):
+    icalfile = IcalFile(EXAMPLE, engine="invalid")
+    icalfile._calendar = object()
+
+    with pytest.raises(ValueError, match="Unsupported engine"):
+        getattr(icalfile, method)(*args)
+
+
+def test_normalize_to_full_minutes():
+    assert IcalFile.normalize_to_full_minutes(timedelta(minutes=4, seconds=29)) == timedelta(minutes=4)
+    assert IcalFile.normalize_to_full_minutes(timedelta(minutes=4, seconds=31)) == timedelta(minutes=5)
+
+
+def test_normalize_vtimezone():
+    offset_from = SimpleNamespace(td=timedelta(hours=1, seconds=20))
+    offset_to = SimpleNamespace(td=timedelta(hours=2, seconds=40))
+    transition = {"TZOFFSETFROM": offset_from, "TZOFFSETTO": offset_to}
+    timezone = SimpleNamespace(subcomponents=[transition])
+
+    icalfile = IcalFile(EXAMPLE, verbose=False)
+    icalfile._calendar = SimpleNamespace(walk=lambda name: [timezone] if name == "VTIMEZONE" else [])
+    icalfile.normalize_vtimezone()
+
+    assert offset_from.td == timedelta(hours=1)
+    assert offset_to.td == timedelta(hours=2, minutes=1)

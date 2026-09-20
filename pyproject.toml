@@ -46,7 +46,7 @@ icalclean = 'icalreporting._cli:icalclean'
 
 [tool.pytest.ini_options]
 minversion = "6.0"
-addopts = "--cov -v"
+addopts = "--cov=icalreporting --cov-report=term-missing --cov-fail-under=90 -v"
 testpaths = [
     "tests"
 ]
