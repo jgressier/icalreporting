@@ -46,3 +46,6 @@ Untitled*.ipynb
 
 # py venv
 py312
+
+# macos
+.DS_Store

@@ -5,6 +5,9 @@
 - preserve actual start times and full durations for timed and multi-day events
 - fix Hyperplanning course worksheet generation (`CourseType` column)
 - correct the `icalclean` command usage message
+- add individual weekly reporting with automatic overlap correction, Sunday-to-Saturday weeks,
+  totals before grouped sector/subsector details, a separate unclassified-event tab, normal-hours
+  accounting, Excel export, and a four-week text summary
 
 ## version 0.3.1 (2024/11/22)
 

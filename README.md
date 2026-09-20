@@ -39,6 +39,23 @@ All-day events are reported as 8-hour working days starting at 09:00.
 `Hyperplanning` provides the same workflow for course calendars, grouped by course and
 teaching type.
 
+## Individual weekly report
+
+`IndividualReporting` expects one calendar whose summaries follow
+`SECTOR/SUBSECTOR optional comment`.
+
+```python
+from icalreporting.reporting import IndividualReporting
+
+report = IndividualReporting("My activity", "examples/indiv-reporting")
+report.load_ics()  # overlaps are corrected by shortening the first event
+report.workbook().save("individual-report.xlsx")
+```
+
+Weeks run Sunday–Saturday. The workbook puts totals first, groups detail columns by sector then
+subsector, and lists excluded malformed summaries in an `Unclassified` tab. It also reports hours
+outside Monday–Friday 07:00–19:00. 
+
 ## Command line
 
 ```bash
