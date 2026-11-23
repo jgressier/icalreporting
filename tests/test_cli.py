@@ -4,7 +4,7 @@ import sys
 
 import pytest
 
-from icalreporting._cli import icalcheck, icalclean
+from icalreporting._cli import icalcheck, icalclean, icalindividual, icalproject
 from icalreporting.icaltools import IcalFile
 
 
@@ -62,3 +62,22 @@ def test_icalclean(tmp_path):
     cleaned = IcalFile(output, verbose=False)
     cleaned.read()
     assert cleaned.nevents() == 7
+
+
+def test_icalproject(tmp_path):
+    output = tmp_path / "project.xlsx"
+
+    assert icalproject(["examples/projectA", str(output), "--start", "2023-01-01", "--end", "2023-12-31"])
+    assert output.exists()
+
+
+def test_icalindividual(tmp_path):
+    source = tmp_path / "individual.ics"
+    source.write_text(
+        """BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nUID:event\nDTSTART:20240108T080000\nDTEND:20240108T090000\nSUMMARY:A/X work\nEND:VEVENT\nEND:VCALENDAR\n""",
+        encoding="utf-8",
+    )
+    output = tmp_path / "individual.xlsx"
+
+    assert icalindividual([str(tmp_path), str(output), "--start", "2024-01-01", "--end", "2024-01-31"])
+    assert output.exists()

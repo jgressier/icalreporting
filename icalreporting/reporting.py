@@ -411,7 +411,10 @@ class IndividualReporting(IcalList):
 
     @staticmethod
     def _parse_summary(summary):
-        value = (summary or "").strip()
+        if summary is None or (not isinstance(summary, str) and pd.isna(summary)):
+            value = ""
+        else:
+            value = str(summary).strip()
         sector, separator, remainder = value.partition("/")
         if not separator or not sector.strip() or not remainder.strip():
             return IndividualReporting._unclassified, IndividualReporting._unclassified, value
@@ -715,7 +718,15 @@ class IndividualReporting(IcalList):
         reference_date = reference.date() if isinstance(reference, datetime) else reference
         current_sunday = self._week_start(reference_date)
         first_sunday = current_sunday - timedelta(weeks=weeks)
-        return self.weekly_report(by="sector", start=first_sunday, end=current_sunday)
+        report = self.weekly_report(by="sector", start=first_sunday, end=current_sunday)
+        report.index = pd.Index(
+            [
+                (date.fromisoformat(week_start) + timedelta(days=1)).isoformat()
+                for week_start in report.index
+            ],
+            name="Monday",
+        )
+        return report
 
     def build_email(self, to_address, from_address, as_of=None):
         """Build the four-complete-week sector report email."""

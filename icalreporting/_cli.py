@@ -1,4 +1,8 @@
+import argparse
 import sys
+from pathlib import Path
+
+from icalreporting.reporting import IndividualReporting, Project
 from icalreporting.icaltools import IcalFile
 
 def _parseargs(argv, helpmsg=""):
@@ -60,3 +64,61 @@ def icalclean(argv=None):
     file.write(file._filename.with_suffix('.cleaned.ics'))
     print("> done")      
     return not error # for pytest
+
+
+def _report_parser(prog, description, include_default_wp=False):
+    parser = argparse.ArgumentParser(prog=prog, description=description)
+    parser.add_argument("folder", type=Path, help="folder containing ICS calendar files")
+    parser.add_argument("output", type=Path, help="XLSX workbook to create")
+    parser.add_argument("--start", default="2020-01-01", help="first included date (YYYY-MM-DD)")
+    parser.add_argument("--end", default="2030-01-01", help="last included date (YYYY-MM-DD)")
+    if include_default_wp:
+        parser.add_argument(
+            "--default-wp",
+            default="No_WP",
+            help="work-package label for events without a WP tag (default: No_WP)",
+        )
+    return parser
+
+
+def icalproject(argv=None):
+    """Create a project XLSX workbook from ICS files in a folder."""
+    parser = _report_parser(
+        "icalproject",
+        "Create a project XLSX workbook from one ICS file per member.",
+        include_default_wp=True,
+    )
+    arguments = parser.parse_args(argv)
+    project = Project(
+        arguments.folder.name,
+        folder=arguments.folder,
+        start=arguments.start,
+        end=arguments.end,
+        default_WP=arguments.default_wp,
+    )
+    project.load_ics()
+    project.workbook().save(arguments.output)
+    print(f"Workbook written to {arguments.output}")
+    return True
+
+
+def icalindividual(argv=None):
+    """Create an individual weekly XLSX workbook from one ICS file."""
+    parser = _report_parser(
+        "icalindividual",
+        "Create an individual weekly XLSX workbook from exactly one ICS file.",
+    )
+    parser.add_argument("--timezone", default="Europe/Paris", help="IANA timezone (default: Europe/Paris)")
+    arguments = parser.parse_args(argv)
+    report = IndividualReporting(
+        arguments.folder.name,
+        folder=arguments.folder,
+        start=arguments.start,
+        end=arguments.end,
+        timezone_name=arguments.timezone,
+    )
+    report.load_ics()
+    report.workbook().save(arguments.output)
+    print(f"Workbook written to {arguments.output}")
+    print(f"Detected {len(report._overlaps)} overlapping event pair(s)")
+    return True

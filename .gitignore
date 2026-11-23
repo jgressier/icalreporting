@@ -43,6 +43,7 @@ Untitled*.ipynb
 *.xdump
 *.log
 *.info
+examples/indiv-reporting/reporting.local.env
 
 # py venv
 py312

@@ -56,11 +56,17 @@ Weeks run Sunday–Saturday. The workbook puts totals first, groups detail colum
 subsector, and lists excluded malformed summaries in an `Unclassified` tab. It also reports hours
 outside Monday–Friday 07:00–19:00. 
 
-## Command line
+## Miscellaneous tools available through Command line
 
 ```bash
 icalcheck calendar.ics
 icalclean calendar.ics  # writes calendar.cleaned.ics
+
+# One ICS file per project member
+icalproject calendars project-report.xlsx --start 2023-01-01 --end 2023-12-31
+
+# Exactly one ICS file, with SECTOR/SUBSECTOR summaries
+icalindividual my-calendar individual-report.xlsx
 ```
 
 ## Development

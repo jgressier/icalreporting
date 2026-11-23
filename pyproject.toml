@@ -43,6 +43,8 @@ build-backend = "setuptools.build_meta"
 [project.scripts]
 icalcheck = 'icalreporting._cli:icalcheck'
 icalclean = 'icalreporting._cli:icalclean'
+icalproject = 'icalreporting._cli:icalproject'
+icalindividual = 'icalreporting._cli:icalindividual'
 
 [tool.pytest.ini_options]
 minversion = "6.0"
