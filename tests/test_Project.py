@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta
+import re
 
 from openpyxl import load_workbook
 import pytest
@@ -34,6 +35,14 @@ def test_open(project):
 def test_properties(project):
     assert {"date", "duration", "name", "Member", "WP"} <= set(project._dframe.columns)
     assert project._dframe.loc[project._dframe["WP"] == "WP1", "duration"].sum() == 382.25
+
+
+def test_decimal_work_package_tag():
+    match = re.search(ir.Project._WP_model, "WP6.1 planning")
+
+    assert match is not None
+    assert match.group() == "WP6.1"
+    assert re.search(ir.Project._WP_model, "WP6.1A planning").group() == "WP6.1A"
 
 
 def test_filter():

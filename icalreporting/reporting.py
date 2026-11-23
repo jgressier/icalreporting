@@ -221,7 +221,7 @@ class Project(IcalList):
     """
 
     _ObjName = "Project"
-    _WP_model = r"WP[0-9]*[A-Z]*"
+    _WP_model = r"WP[0-9.]*[A-Z]?"
 
     def __init__(self, name: str, folder=None, start: str = _default_startdate, end: str = _default_enddate, default_WP="No_WP"):
         super().__init__(name, folder, start, end)
